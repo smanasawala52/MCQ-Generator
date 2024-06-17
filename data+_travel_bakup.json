@@ -1,0 +1,580 @@
+[
+    {
+        "city": "Abu Dhabi",
+        "about": "Abu Dhabi, the vibrant capital city of the United Arab Emirates (UAE), is a destination that seamlessly blends tradition with modernity. One of its most notable attractions is Yas Island, a dazzling entertainment and leisure hub that has captured the attention of visitors worldwide.Yas Island is a man-made island located just off the coast of Abu Dhabi, offering an unrivaled mix of thrilling adventures, luxurious resorts, and world-class entertainment. Motorsport enthusiasts flock to the Yas Marina Circuit, home to the renowned Formula 1 Abu Dhabi Grand Prix. Here, the roaring engines and high-speed excitement create an electrifying atmosphere that captivates spectators.For those seeking family-friendly entertainment, Yas Island offers the thrilling Yas Waterworld, a sprawling water park featuring exhilarating rides, slides, and attractions. The iconic Ferrari World Abu Dhabi, an indoor theme park, beckons visitors with its record-breaking roller coasters and immersive experiences centered around the legendary Italian automaker.",
+        "packages": [
+            {
+                "time_of_day": "FULL DAY",
+                "popularity_score": -1.0,
+                "adventure_score": -1.0,
+                "activity_type": "Check-Out",
+                "activity": "Transfer to Abu Dhabi International Airport",
+                "details": "After breakfast, depending on your departure time of flight we will transfer you to Abu Dhabi International Airport. We hope you enjoyed your stay in Abu Dhabi & we thank you for providing us the opportunity to serve you & cater your travel requirements.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894039673472rsz_1yas_island.jpg"
+                ]
+            },
+            {
+                "time_of_day": "FULL DAY",
+                "popularity_score": 3.0,
+                "adventure_score": -1.0,
+                "activity_type": "Luxury",
+                "activity": "Explore your own In Yas Island",
+                "details": "Breakfast at the Hotel. Today we proceed for 1 Park of your choice. Guest has option to choose between Ferrari World / Warner Brother\u2019s or Yas Water World. Ferrari World: Open 365 days a year, the world\u2019s first Ferrari-branded theme park tells the marque\u2019s story with passion, showcasing more than 20 exhilarating and educational rides and attractions, incredible shopping, and authentic Italian dining experiences. The only time you\u2019ll be outside in the sun is on board the Formula Rossa \u2013 the world\u2019s fastest roller-coaster. Go from 0 to 240km/h in 4.9 seconds, while soaring to heights of 52 metres. Warner Bro\u2019s World: The world\u2019s biggest and fully air-conditioned indoor theme park, Warner Bros. World\u2122 Abu Dhabi brings all the legendary characters from this famous studio to life. Meet Superman, catch up with Batman or Wonder Woman, or be entertained by Bugs Bunny, Scooby-Doo, Fred Flintstone and more, all within an impressive 1.65-million-square-foot theme park boasting 29 state-of-the-art rides, interactive family-friendly attractions, upbeat live entertainment, a range of dining options to suit all tastes, and exclusive shopping outlets. Sea World: Explore the region\u2019s first Marine Life Theme Park and discover eight immersive realms with over 15 interactive experiences and rides, over 100 animal experiences and presentations including up-close animal encounters, more than 20 live characters and performances, 17 dining options, 13 retail outlets and roaming entertainment across each realm.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894046423472rsz_1awesome_abu_dhabi_with_yas_island.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Ferrari World",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"]
+					},
+					{
+						"place_covered_name" : "Warner Brothers",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"]
+					},
+					{
+						"place_covered_name" : "Yas Water World",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "FULL DAY",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Abu Dhabi City Tour with Entrance to BAPS Hindu Temple",
+                "details": "Embark on an extraordinary Abu Dhabi expedition where grandeur, spirituality, and excitement converge. Discover the awe-inspiring BAPS Hindu Temple with its intricate details and serene ambience. Journey through Al Bateen's noble palaces before immersing yourself in art and culture at the Islamic Art gallery. Capture mesmerizing views at the Corniche, Breakwaters, and Emirates Palace during a photo stop.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17134397943545package-itinerary17133299804042BAPSHinduTemple400X400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name": "BAPS Hindu Temple",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/53/5a/e7/caption.jpg?w=1200&h=-1&s=1"
+						]
+					  }
+				]
+            },
+            {
+                "time_of_day": "FULL DAY",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Panoramic Abu Dhabi City Tour with Entrance to Sheikh Zayed Grand Mosque & Qasr Al Watan",
+                "details": "After enjoying your breakfast at Hotel, we proceed for Half Day Abu Dhabi City Tour. On this tour we will have opportunity to see the Heritage Village, Emirates Palace Hotel, Abu Dhabi Corniche & opportunity see the magnificent skyline. We will also have opportunity to visit Sheikh Zayed Grand Mosque. Abu Dhabi\u2019s Sheikh Zayed Grand Mosque is one of the world\u2019s largest mosques and an architectural masterpiece that beautifully combines Islamic architecture and design. Sheikh Zayed bin Sultan Al Nahyan, the Founding Founder of the UAE, had the mosque built in the capital city Abu Dhabi to create a cultural haven that welcomes and inspires people from all backgrounds. The edifice boasts 1,096 amethyst-and-jasper-embedded columns, 82 white marble domes, reflective pools, gold-plated Swarovski chandeliers, an iconic prayer hall, and a courtyard featuring one of the largest marble mosaic artworks in the world. Next, we visit \u201cOasr Al Watan\u201d also known as the Palace of the Nation. Qasr Al Watan is more than a palace; it is a unique testament to the spirit of the United Arab Emirates people and its leaders. The Palace invites the world to share our culture, knowledge and inspiring journey. Qasr Al Watan is more than just a palace, it is an enriching interactive journey in a contemporary setting that reveals and reflects on governance, knowledge and craftsmanship.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894030813472rsz_qasr_al_watan.jpg"
+                ],
+				"places_covered": [
+				  {
+					"place_covered_name": "Sheikh Zayed Grand Mosque",
+					"place_covered_image_url": [
+					  "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
+					]
+				  },
+				  {
+					"place_covered_name": "Qasr Al Watan",
+					"place_covered_image_url": [
+					  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/c3/da/97/qasr-al-watan.jpg?w=1200&h=-1&s=1"
+					]
+				  }
+				]
+            },
+            {
+                "time_of_day": "FULL DAY",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "Luxury",
+                "activity": "Explore your own In Yas Island",
+                "details": "Breakfast at Hotel. Today we transfer you from your Abu Dhabi Hotel to Yas Island Hotel on Private Basis. Yas Island, one of the most popular tourist attractions in the world, presents a family-friendly entertainment hub like no other. Today you have free time at leisure to explore Yas Island on own using Yas Shuttle.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894039673472rsz_1yas_island.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name": "Ferrari World",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
+						]
+					  },
+					  {
+						"place_covered_name": "Warner Brothers",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
+						]
+					  },
+					  {
+						"place_covered_name": "Yas Water World",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"
+						]
+					  },
+					  {
+						"place_covered_name": "Yas island",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
+						]
+					  }
+				]
+            },
+            {
+                "time_of_day": "FULL DAY",
+                "popularity_score": 5.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Abu Dhabi City Tour with Entrance to Grand Mosque & Ferrari World OR Warner Bros World OR SeaWorld at Yas Island (any 1 theme park)",
+                "details": "Enjoy early breakfast at your hotel. Today we head to Full Day Abu Dhabi City Tour with Entrance to Grand Mosque & Ferrari World OR Warner Bros World OR SEA WORLD. Head off to an amazing tour of Abu Dhabi before hitting the high speed Ferrari world for some fun! Form your hotel in Dubai, you'll head out to tour Abu Dhabi, first stopping at the Shiekh Zayed Grand Mosque and then the Abu Dhabi Corniche. You'll swing by Emirates Palace before you head to the gorgeous shopping mecca of Marina Mall for some lunch. It's time for a bit of cultural enlightenment as you head to Abu Dhabi Heritage Village. Today you have choice to opt (any 1) theme park entrance of your choice.Ferrari World: Nothing gets the adrenaline pumping like riding the world's fastest rollercoaster, Formula Rossa, here at Ferrari World Abu Dhabi. Feel the exhilaration as you go from 0 to 240km/h in 4.9 seconds while soaring 52 metres in the air. The whole family will find an adrenaline-fueled ride just for them; everyone can join in the high-octane fun. The Ferrari-branded theme park on Yas Island is home to more than 20 record-breaking attractions, including the highest loop ride, and it all happens underneath the tallest space-frame structure on the planet.Warner Bros World: Immerse yourself in a fantasy world surrounded by your favorite DC Superheroes and iconic cartoon characters at Warner Bros. World\u2122 Abu Dhabi. Experience 29 thrilling rides and kid-friendly attractions at the region\u2019s largest Indoor theme park with six unique lands, live entertainment and endless family fun. Warner Bros. World\u2122 Abu Dhabi \u2013 experience everything you\u2019ve imagined.SeaWorld: Explore the region\u2019s first Marine Life Theme Park and discover eight immersive realms with over 15 interactive experiences and rides, over 100 animal experiences and presentations including up-close animal encounters, more than 20 live characters and performances, 17 dining options, 13 retail outlets and roaming entertainment across each realm.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133326113560FerrariWorld400x400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name": "Sheikh Zayed Grand Mosque",
+						"place_covered_image_url": [
+						  "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
+						]
+					  },
+					  {
+						"place_covered_name": "Ferrari World",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
+						]
+					  },
+					  {
+						"place_covered_name": "Warner Brothers",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
+						]
+					  },
+					  {
+						"place_covered_name": "SeaWorld",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d6/06/fa/caption.jpg?w=300&h=300&s=1"
+						]
+					  },
+					  {
+						"place_covered_name": "Yas island",
+						"place_covered_image_url": [
+						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
+						]
+					  }
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": -1.0,
+                "adventure_score": -1.0,
+                "activity_type": "Check-In",
+                "activity": "Arrive in Abu Dhabi & Transfer to Hotel for Check-In",
+                "details": "Marhaba!! Abu Dhabi is the largest of the seven emirates that make up the United Arab Emirates or popularly known as the UAE. It is also the Capital City of UAE.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16868945313498airplaneresize.jpg"
+                ]				
+            },
+            {
+                "time_of_day": "NOON TO EVENING",
+                "popularity_score": 3.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Visit Sheikh Zayed Grand Mosque. Dinner and Overnight Stay In Abu Dhabi.",
+                "details": "The City of Abu Dhabi is set over a series of fringed islands & a popular year-round destination amongst travelers because of its year-round sunshine & warm weather, beaches, affordable resorts, attractions, theme parks & wealth of traditional & modern experiences. On arrival at Abu Dhabi International Airport, you will meet our local representative who will take you to your hotel in Abu Dhabi. Check-In and Relax in your hotel or explore local experiences in Abu Dhabi.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16532896573472UAE.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name": "Sheikh Zayed Grand Mosque",
+						"place_covered_image_url": [
+						  "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
+						]
+					  }
+				]
+            }
+        ]
+    },
+    {
+        "city": "Dubai",
+        "about": "Discover the enchanting city and emirate of Dubai in the United Arab Emirates, renowned for its upscale shopping, cutting-edge architecture, and vibrant entertainment. Dubai's skyline is dominated by the iconic Burj Khalifa, a soaring 830-meter-tall tower. At its base, the Dubai Fountain dazzles with a mesmerizing display of musically synchronized jets and lights. Just offshore, Atlantis, The Palm, a luxurious resort, awaits, featuring aquatic and marine animal sanctuaries on artificial islands. Immerse yourself in a world of opulence, innovation, and natural wonders as Dubai seamlessly combines modernity and indulgence in an unforgettable journey.",
+        "packages": [
+            {
+                "time_of_day": "FULL DAY",
+                "popularity_score": -1.0,
+                "adventure_score": -1.0,
+                "activity_type": "Check-Out",
+                "activity": "Breakfast check-out from Hotel and Departure from Dubai",
+                "details": "After breakfast we check-out from our hotel & transfer to airport to catch flight back home. We return home with bags full of souvenirs and happy memories.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133319463560Airplanedeparture400x400.jpg"
+                ]
+            },
+            {
+                "time_of_day": "FULL_DAY",
+                "popularity_score": 1.0,
+                "adventure_score": -1.0,
+                "activity_type": "Luxury",
+                "activity": "Motiongate Dubai",
+                "details": "At Motiongate Dubai \u2013 the largest Hollywood-inspired theme park in the region \u2013 explore the best from legendary film studios such as Columbia Pictures, DreamWorks Animation and Lionsgate. Witness popular animated characters including the Smurfs and Shrek, and experience incredible rides, including the world\u2019s first roller coaster inspired by action film John Wick and the world\u2019s fastest single-car spinning roller coaster themed after heist thriller Now You See Me. Meanwhile, budding filmmakers can visit a real set at Studio Central",
+                "image_url": [
+                    "https://www.visitdubai.com/-/media/gathercontent/poi/m/motiongate-dubai/fallback-image/motiongate-dubai-01.jpg?rev=d8cb18080b9142ce9e7b22cfa627c8bf&cx=0.5&cy=0.5&cw=1556&ch=690"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Motiongate Dubai",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/f7/b8/10.jpg"]
+					}
+				]
+            },
+            {
+                "time_of_day": "FULL_DAY",
+                "popularity_score": 3.0,
+                "adventure_score": -1.0,
+                "activity_type": "Adventure",
+                "activity": "Full Day Excursion to Aquaventure & Lost Chambers",
+                "details": " Later we transfer from your hotel to Atlantis the Palm to enjoy full-day access to Aquaventure & Lost Chambers. Aquaventure: Aquaventure Waterpark is home to iconic record-breaking rides and attractions, such as Medusa's Lair, Shockwave, and Blackout. Located next to Atlantis, The Palm, get the most out of your holiday at this much-loved landmark. Covering just over 2.4 million square feet following an extension, it is officially the largest waterpark in the world as well as the one with the most waterslides. The enormous theme park features 105 slides and attractions across three towers, marine and watersports experiences, private beaches, and children's play areas for all ages. Lost Chambers: Surround yourself with marine life on a walk through the glass tunnels of The Lost Chambers Aquarium. Witness sharks, stingrays, piranhas, lobsters, and the tiniest of seahorses at Atlantis, The Palm \u2013 just some of the creatures you\u2019ll come face-to-fin within this underwater world. Evoking the Lost City of Atlantis, the underwater passages serve as an immersive experience into a bygone civilization remembered in shipwrecks and ruins. You're sure to encounter the most amazing, colorful collection of aquatic life within 10 beautiful chambers.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560DesertSafari400x400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Aquaventure Waterpark",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/22/91/f5/aquaventure-water-park.jpg?w=1200&h=-1&s=1"]
+					},
+					{
+						"place_covered_name" : "Lost chambers",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/a1/87/8a.jpg"]
+					}
+				]
+            },
+            {
+                "time_of_day": "FULL_DAY",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "Luxury",
+                "activity": "Legoland Dubai and Legoland Water Park",
+                "details": "Visit Legoland Dubai for the ultimate family adventure suited for kids from two to 12 years of age. Enjoy over 40 Lego-themed rides and shows before you head out to splash, play and even customize your own Lego raft at Legoland Water Park. Continue building up the fun with a stay at the newly-opened Legoland Hotel \u2013 a first in the region. If you're at Dubai Parks and Resorts with little ones, also stop by Neon Galaxy, the city's latest indoor playworld enticing youngsters into space-themed learning and fun. The multi-story adventure park is equipped with ninja courses, rope challenges, ball pits, and many sensory-rich spaces \u2013 all immersed in a neon aesthetic to further intrigue and excitement.",
+                "image_url": [
+                    "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/46/2d/a2.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Legoland Dubai",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/da/6a/34/legoland-hotel-dubai.jpg?w=700&h=-1&s=1"]
+					},
+					{
+						"place_covered_name" : "Legoland Water Park",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/86/6a/41/caption.jpg?w=1200&h=-1&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": -1.0,
+                "adventure_score": -1.0,
+                "activity_type": "Check-In",
+                "activity": "Arrival in Dubai",
+                "details": "Marhabaan and welcome to Dubai! On your arrival at Dubai International Airport, you will be received by our representative and transferred to your hotel. Settle into your luxurious room and spend the day at leisure exploring one of the most glamorous cities in the world.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133319463560Airplanedeparture400x400.jpg"
+                ]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 1.0,
+                "adventure_score": -1.0,
+                "activity_type": "Adventure",
+                "activity": "Enjoy 20 Mins Gyrocopter Flight",
+                "details": "Morning breakfast at hotel. If you\u2019re looking for a thrilling experience that\u2019s closer to the ground, take flight with Skyhub\u2019s Gyrocopter. The two-seat, unique aircraft delivers an exclusive experience at 1,500 ft, as you are flown by one of our trusted pilots. The flight route will take you along the Dubai Marina coastline and past some of the city's most iconic attractions, including Dubai Eye (the world\u2019s largest Ferris wheel), Palm Jumeirah, Atlantis Hotel, World Islands, and the spectacular Burj Al Arab",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131824403751Gyrocopte400x400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Dubai Eye",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/c7/a6/b7/caption.jpg?w=1200&h=-1&s=1"]
+					},
+					{
+						"place_covered_name" : "Burj Al Arab",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"]
+					},
+					{
+						"place_covered_name" : "Palm Jumeirah",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"]
+					},
+					{
+						"place_covered_name" : "Atlantis Hotel",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"]
+					},
+					{
+						"place_covered_name" : "World Islands",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/7c/51/55/caption.jpg?w=1200&h=-1&s=1"]
+					}
+				]            
+			},
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 2.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Visit Museum of the Future",
+                "details": "Today morning we visit \u201cMuseum of the Future\u201d. The Museum of the Future is an exhibition space for innovative and futuristic ideologies, services, and products. Located in the Financial District of Dubai, UAE, the Museum of the Future has three main elements: green hill, building, and void. The Museum of the Future welcomes people of all ages to see, touch, and shape our shared future. Go on a journey through possible futures and bring hope and knowledge back to the present. The Museum of the Future is the first museum of its kind. Built to transform the very perception of the future as we know it, the unique structure has become home to several immersive future environments that aim to position visitors in an empowering version of the future. ",
+                "image_url": [
+                    "https://lh3.googleusercontent.com/p/AF1QipPrzEzr7L3Sq3AycYzAkpx8ZLVIjCuWQR9MMM42=s680-w680-h510"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Museum of the Future",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/c0/17/21/caption.jpg?w=300&h=300&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 3.0,
+                "adventure_score": -1.0,
+                "activity_type": "Adventure",
+                "activity": "Hot Air Balloon Ride",
+                "details": "Want to see Dubai differently? Choose to float 4,000ft above the Arabian sands on a hot air balloon tour. Balloon Adventures Dubai has created a world first \u2013 where passengers get to share the skies (and basket) with falcons, as they experience a one-of-a-kind aerial adventure. Depending on whichever way the desert breeze blows, you'll enjoy stunning views of the rolling red sands, rising sun, grazing gazelles and majestic Hajar Mountains. The experience doesn\u2019t end once you land, as you\u2019ll ride in an open-top 1950s vintage Land Rovers to an amazing breakfast, where you can unwind and indulge in authentic treats.",
+                "image_url": [
+                    "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/0e/99/c9.jpg,https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/d3/af/3e.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Hajar Mountains",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6c/91/ef/caption.jpg?w=1200&h=-1&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Enjoy Dubai Safari Park",
+                "details": "Embark on a safari expedition and explore different \u2018villages\u2019 across the zoo, including the Arabian, Asian, African and Explorer Village. The park features 15 species of carnivores alone, alongside an array of primates, reptiles, birds and amphibians. Recently renovated to offer even more exceptional experiences, the 119-hectare wildlife sanctuary in Dubai is home to nearly 3,000 animals from all over the world. The eco-friendly Dubai Safari Park, which is primarily powered by solar energy, now aims to be one of the top 10 zoos in the world, thanks to its commitment to animal conservation, protection and education.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560SafariPark400X400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Dubai Safari Park",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/28/75/c2.jpg"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Morning Entrance to Ski Dubai",
+                "details": "Enjoy a sumptuous breakfast at the hotel. Ski Dubai is an indoor ski resort with 22,500 square meters of indoor ski area. The park maintains a temperature of -1 degrees to 2 degrees Celsius throughout the year. It is a part of the Mall of the Emirates, one of the largest shopping malls in the world. Ski Dubai offers a variety of activities & gives you a chance to ski, snowboard, meet the penguins, zip line, or take a chairlift ride.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16868301943926SkiDubai.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Ski Dubai",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/43/33/37/ski-dubai.jpg"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "Adventure",
+                "activity": "Enjoy 60 Mins Yellow Boat Tour",
+                "details": "Experience Dubai sightseeing with a twist with The Yellow Boats. Don a life jacket and cruise along the coast in an inflatable boat, with the skyline behind you and Palm Jumeirah ahead. Sail past Atlantis, The Palm and marvel at the iconic Burj Al Arab Jumeirah before setting your eyes on the beautiful palaces that line the beach, with photo opportunities between every wave.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131828643751YellowBoatTourDubai400X40.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Burj Al Arab",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"]
+					},
+					{
+						"place_covered_name" : "Palm Jumeirah",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"]
+					},
+					{
+						"place_covered_name" : "Atlantis Hotel",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 5.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Entrance to (124th Floor) Burj Khalif and Dubai Fountain Show",
+                "details": "We proceed to Dubai Mall for entrance to (124th Floor) Burj Khalifa with Dubai Fountain Show. The Burj Khalifa is the tallest building in the world and a global icon. Truly a feat of engineering, the building represents the conceptual heart and soul of the city of Dubai. At 828m tall, this magnificent structure is located next to The Dubai Mall and has drawn visitors from all over the world since opening in 2010. The Dubai Fountain Show is a spectacular, choreographed water and light show located at the base of the Burj Khalifa and the Dubai Mall in Dubai, United Arab Emirates. It is one of the city's most popular tourist attractions and has become an iconic symbol of Dubai. The fountain show is accompanied by a diverse range of music, including classical, contemporary, and Arabic songs. The water jets are synchronized with the music and move in harmony, creating a mesmerizing visual and auditory experience.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133323603560BurjKhalifa400x400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Burj Khalifa",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
+					},
+					{
+						"place_covered_name" : "Dubai Mall",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=1200&s=1"]
+					},
+					{
+						"place_covered_name" : "The Dubai Fountain",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/e2/fd/e2/photo0jpg.jpg"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 5.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Guided Dubai City Tour with One Way Palm Monorail Tickets",
+                "details": "Discover Dubai on an exciting city tour and ascend the magnificent Burj Khalifa, an iconic Dubai landmark. The city tour includes Palm Jumeirah beach photo stop, the Dubai Mosque and scores of other famous Dubai attractions. Dubai city tour offers visitors the opportunity to explore the stunning and vibrant city of Dubai, one of the most popular tourist destinations in the United Arab Emirates. Dubai is known for its modern architecture, luxurious lifestyle, and a wide range of attractions.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131764823112Palm400X400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Burj Khalifa",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
+					},
+					{
+						"place_covered_name" : "Palm Jumeirah Beach",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/8e/75/22/the-pointe.jpg?w=1200&h=1200&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "MORNING TO NOON",
+                "popularity_score": 5.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Half Day Guided Dubai City Tour",
+                "details": "Discover Dubai on an exciting city tour and ascend the magnificent Burj Khalifa, an iconic Dubai landmark. The city tour includes Palm Jumeirah beach photo stop, the Dubai Mosque and scores of other famous Dubai attractions.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/admin/thumbnail17131819663751burjkhalifa700X710.webp"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Burj Khalifa",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
+					}
+				]
+            },
+            {
+                "time_of_day": "NOON TO EVENING",
+                "popularity_score": 2.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Visit Miracle Garden & Global Village",
+                "details": "Later in the afternoon, we proceeded to Miracle Garden & Global Village. A world of floral wonder awaits you at Dubai Miracle Garden, the world's largest natural flower garden. The 72,000 sqm park has an impressive line-up of famous buildings and structures completely transformed into colorful flower exhibits. Walk down the heart-shaped pathway or wander amid petal-powered castles, illuminated nightscapes, and full-size houses. You can immerse yourself among more than 150 million blooming flowers throughout with plenty of attractions and a huge variety of quirky arrangements. Global Village which was launched in 1997 with a series of retail kiosks, the open-air destination has grown in leaps and bounds over the years and now serves as a staple treat on Dubai's winter calendar. Sample delicious honey from Yemen or shop exquisite carpets from Iran and Afghanistan, argan oil from Morocco, engraved necklaces from Spain, and dry fruits from Thailand. Each pavilion, from Egypt to Italy and Vietnam to Oman, transports visitors to the country through smell, taste, sounds, and colorful decorations. While thrill-seekers can keep their energy high on the daring carnival rides, foodies will want to plan a feast with a taste of international dishes at the many restaurants, cafes, and street food kiosks onsite.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560DesertSafari400x400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Miracle Garden",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/7d/82/16/caption.jpg?w=300&h=300&s=1"]
+					},
+					{
+						"place_covered_name" : "Global Village",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/1c/89/caption.jpg?w=300&h=300&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "NOON TO EVENING",
+                "popularity_score": 2.0,
+                "adventure_score": -1.0,
+                "activity_type": "Adventure",
+                "activity": "Enjoy Ekart Experience at Zabeel",
+                "details": "Afternoon we proceed to enjoy Ekart Experience at Zabeel. Located on the rooftop of The Dubai Mall Zabeel, Ekart Zabeel is a modern indoor electric go-karting experience offering a challenging course with the latest generation of electric go-karts. Zoom past the Burj Khalifa on the open-air track, where drivers can race against the clock and each other in the environmentally friendly electric karts. Whether you're competing with your friends or family, or using it for a team-building event, you're guaranteed an adrenaline rush.",
+                "image_url": [
+                    "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/dc/68/41.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Dubai Mall Zabeel",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=-1&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "NOON TO EVENING",
+                "popularity_score": 3.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Explore Glow Garden",
+                "details": "Evening we proceed to Glow Garden. It is one of the most unique and largest of its kind theme park and an absolute example of fine Art. A well-crafted gigantic garden which gives you an opportunity to see the wonders made from recyclable items. Among the largest glow-in-the-dark parks with five distinct sections, Dubai Garden Glow hosts over 500 nature-inspired installations, visual art illusions and seasonal attractions, promising visitors of all ages an illuminating experience.",
+                "image_url": [
+                    "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/c6/46/3a.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Glow Garden",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e6/9a/c9/dubai-garden-glow-season.jpg?w=1200&h=1200&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "NOON TO EVENING",
+                "popularity_score": 4.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "The View at the Palm",
+                "details": "Afternoon we visited \u201cThe View at the Palm\u201d, enjoying incomparable views of one of Dubai\u2019s most talked about landmarks at The View at The Palm. Located 240m high, the observation deck presents never before seen 360-degree panoramas of Palm Jumeirah alongside the sparkling waters of the Arabian Gulf and Dubai skyline in the distance.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131764823112Palm400X400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Burj Khalifa",
+						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
+					}
+				]
+            },
+            {
+                "time_of_day": "NOON TO EVENING",
+                "popularity_score": 5.0,
+                "adventure_score": -1.0,
+                "activity_type": "",
+                "activity": "Marina Dhow Cruise on Dubai Creek with Buffet Dinner",
+                "details": "In the evening, cruise on the Dubai Marina on a traditional illuminated wooden boat called a dhow. Absorb Dubai Marina\u2019s unrivaled architecture, opulent yachts, and breathtaking waterfront sights at its best! Go on an atmospheric dhow cruise Marina which is a sum up of magical sightseeing, delectable dining, and striking entertainment. Take in the glorious views of the lavish architecture of residences, resorts, and shopping facilities, as you feast on a scrumptious fare of international cuisines served in a sophisticated setting, which though exudes traditional charm. Adding to the dining experience is mind-blowing entertainment performances on-board our dhow bounded by dazzling illumination and their multi-hued manifestation on Dubai Marina\u2019s water.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133321423560creekdhowcruise1400X400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Dubai Marina",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/18/0e/cd/alexandra-floating-restaurant.jpg?w=1200&h=900&s=1"]
+					}
+				]
+            },
+            {
+                "time_of_day": "NOON TO EVENING",
+                "popularity_score": 5.0,
+                "adventure_score": -1.0,
+                "activity_type": "Adventure",
+                "activity": "Visit Desert Safari with Dune Bashing, Tanura Show, Belly Dance, Fire Dance & BBQ Dinner",
+                "details": "Later in afternoon we depart for a desert adventure on a 5-hour safari from Dubai. Travel by a comfortable 4x4 to a welcoming camp in the middle of the desert. You will sample some traditional Arabic coffee and dates before taking off on a thrilling dune ride across the sands. End the day with a starlit barbecue dinner back at the camp. As you feast on delicious Arabic dishes, watch a sequined belly dancing show and hypnotic \u2018tanoura\u2019 performance, with dancers spinning in time to traditional Emirati music.",
+                "image_url": [
+                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560DesertSafari400x400.jpg"
+                ],
+				"places_covered": [
+					{
+						"place_covered_name" : "Dubai Desert",
+						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/26/bd/caption.jpg?w=500&h=400&s=1"]
+					}
+				]
+            }
+        ]
+    }
+]	

@@ -1,0 +1,543 @@
+{
+  "search_metadata": {
+    "id": "666ac1c7e4a23d8029e0cb13",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/46dfc2530bb5b129/666ac1c7e4a23d8029e0cb13.json",
+    "created_at": "2024-06-13 09:54:15 UTC",
+    "processed_at": "2024-06-13 09:54:15 UTC",
+    "google_url": "https://www.google.com/search?q=give+more+information+on+dubai+Destination&oq=give+more+information+on+dubai+Destination&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/46dfc2530bb5b129/666ac1c7e4a23d8029e0cb13.html",
+    "total_time_taken": 0.7
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "give more information on dubai Destination",
+    "google_domain": "google.com",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "give more information on dubai Destination",
+    "total_results": 295000000,
+    "time_taken_displayed": 0.46,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Dubai",
+    "type": "City in the United Arab Emirates",
+    "entity_type": "cities, locations, travel, travel",
+    "kgmid": "/m/01f08r",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/m/01f08r&hl=en-US&q=Dubai",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&hl=en-US&kgmid=%2Fm%2F01f08r&q=Dubai",
+    "header_images": [
+      {
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42fdd152f99e09207c8561969a5f7dbfc0ff0d7044bd0e6f7d.jpeg",
+        "source": "https://www.britannica.com/place/Dubai-United-Arab-Emirates"
+      }
+    ],
+    "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks. ― Google",
+    "local_map": {
+      "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f4261289414691f73832bcf944e3fd73bd4.gif",
+      "link": "https://www.google.com/maps/place/Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f43496ad9c645:0xbde66e5084295162?sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ8gF6BAg_EAA"
+    },
+    "age": "191 years",
+    "age_links": [
+      {
+        "text": "Age",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=dubai+age&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEwzsCjSksxOttLPyU9OLMnMz9NPziypLMkvz7NKTE9dxMqZUpqUmKkAZAMAlEon8zQAAAA&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ6BMoAHoECDsQAg"
+      }
+    ],
+    "population": "3.331 million (2019)",
+    "population_links": [
+      {
+        "text": "Population",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=dubai+population&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEwzsCjSMktJttLPSU1PTK6MT04sSrHKyU9OLMnMz4svLgHSxSWZyYk58UWp6SChgvyC0hyw7CJWgZTSpMRMBYQQACBmZU1YAAAA&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ6BMoAHoECD0QAg"
+      }
+    ],
+    "founder": "House of Maktoum",
+    "founder_links": [
+      {
+        "text": "Founder",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=dubai+founder&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEwzsCjSUswot9JPzs_JSU0uyczP08_JT04EMYqt0vJL81JSi4oXsfKmlCYlZipABQBQ_JO6QAAAAA&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ6BMoAHoECEIQAg"
+      },
+      {
+        "text": "House of Maktoum",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=House+of+Maktoum&si=ACC90ny8E30vD16OoPAAI4cStfcliGy35W8UAhb0TsHNc_ISQcEoTz8C-4nLAdHt3_pqz22n9G7EmeAh8GMsez2VJc6r2DGsXMJcJbWScoosKOmH0nvxQ3D_22ZRgJtrBcFwA-CCKHzPuFjK5Ke81rSAJo63Q3TJ0vpVlIHIzb3EqQueqQ07rGBthFmBBfxVF_LbKDBQX53mVcpb1MfYcqMrnjZ_LUxwTg%3D%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQmxMoAXoECEIQAw"
+      }
+    ],
+    "metro_population": "5,894,000",
+    "metro_population_links": [
+      {
+        "text": "Metro population",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=dubai+metro+population&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEwzsCjSkssot9JPzs_JSU0uyczP08_JT04EMYqtclNLivIXsYqllCYlZiqAeQoF-QWlOWB5AFD11qJGAAAA&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ6BMoAHoECDwQAg"
+      }
+    ],
+    "emirate": "Dubai",
+    "emirate_links": [
+      {
+        "text": "Emirate",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=dubai+emirate&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEwzsCjS0soot9JPzs_JSU0uyczP0y8uSSzJLC7JTE7MiS9KTQcKFVul5mYWJZakLmLlTSlNSsxUgPIB09RtdUkAAAA&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ6BMoAHoECDoQAg"
+      },
+      {
+        "text": "Dubai",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Emirate+of+Dubai&si=ACC90nyByJNAHfkzzi7l4JA4fcQKXOYDCI7plJH6uVksGWg6XsZLN5KhmSDAFxbHgGrk-_QN68TTQShKIweI-w9_QAe_Uv4C6QiEIzjYf8rMaKSXBzl28yb3WiXjoI2RbgtSXgUx3Y6aX1o7c8vlfZ07VFo75ApSSLFCKHT3C_lvuwbQugnLb3mTLjO4rpWlpKNUJVmoijAEABOjN13InEVlN4c5iBaAfQ%3D%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQmxMoAXoECDoQAw"
+      }
+    ],
+    "major_exports": "Financial services, Petroleum industry, Construction",
+    "major_exports_links": [
+      {
+        "text": "Major exports",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=dubai+major+exports&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEwzsCjS0s8ot9JPzs_JSU0uyczP0y8uSSzJLC7JTE7MiS9KTQcKFVvlJmblFymkVhTkF5UsYhVOKU1KzFRAFiwGAD-MuMRUAAAA&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ6BMoAHoECDkQAg"
+      },
+      {
+        "text": "Financial services",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Financial+services&si=ACC90ny8E30vD16OoPAAI4cStfcliGy35W8UAhb0TsHNc_ISQZgUqe98VH9pUlR5gIyK24Mfwi-gJAPgj8p1LWUf0FizEoGGNjmhUkMDtRqeHtwcTKuqzkVCC0G4oUoetnDI8Sj_cadg_oCWSZCEZbNmvww4MreSRqCbTNu9-IsQGSf4DfM1AWjC8UePSxfFLsXy0ZYWAUF1TmBdNv9hPq5Tkm1fAVrZXmZHQEtSLGDnnVTYgAqHxNG8qqoRfALM12in9oEIkcmpdrVJc9yxlf9_aXUQateNk5JN6nk7mZDlEtPbJHHoIBo%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQmxMoAXoECDkQAw"
+      },
+      {
+        "text": "Petroleum industry",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Petroleum+industry&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L6pIES9Wif-xvfWmt2XJHz_8g6qnR5Hf0v0p-gegsJgG2u5O-kttEmWkamDNZgxp5eTQTy9I43LSVJV90Oy8YsZDsXF1TFN3Ur2WRvW2AcjRCzLTIi2v0Rs_GZf-wPV4JE4mDbWgBzYJRoz-cEg17WKL4Wud8m2H5c4ynGqdnL-b25SlJ2SCHitTzYv_9AHTPf6YzH91JwP3F-p9AeOiSh-VhU4-Lu-LwhmttrTQ-heyKjeq7_vJlv0p6QuHvlj7Zt4BBb0%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQmxMoAnoECDkQBA"
+      },
+      {
+        "text": "Construction",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Construction&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-LxWErPDQWBWBsmU_nCUcpwewn1u6cIHjh4GbtYefy0EPpXP8FMMC_GIy-BT2IlPnvTG1UrinF0BraYYTUsUhUmNZ53McXEVEkH3vWL_GweHJwkQ_Q1qUIMR61efeW7j-K0Fp6Mt5vZqLcwjdpv0fVaVIRLnYUBZjpakl8j_wnPbF-A3n_GDrvT9ghSNfAKkt7IfplZhWhqWVgnlX6nljXz-wUkz6GvLaIGJRMeuLwlJhV2mmePFJbWo1B502un_Gywb1KR4%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQmxMoA3oECDkQBQ"
+      }
+    ],
+    "points_of_interest": [
+      {
+        "name": "Burj Khalifa",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Burj+Khalifa&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-LxD9aImlxjUJcqtoJYOMw1--KWu78of-Am8HzpkVi5hXIOZg_Q%3D%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAhBEAU",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Burj+Khalifa&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-LxD9aImlxjUJcqtoJYOMw1--KWu78of-Am8HzpkVi5hXIOZg_Q%3D%3D",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42c04c36ba14321b887e7666d215d3fbd017941ab538dcd80041a03412f2caa3a0.jpeg"
+      },
+      {
+        "name": "Burj Al Arab",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Burj+Al+Arab&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L1rXT8GTMNyOLMuHkgQ2O0MBtuOVoHSw3E0ovcmQ8RA7n0WSAQ%3D%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAhBEAc",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Burj+Al+Arab&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L1rXT8GTMNyOLMuHkgQ2O0MBtuOVoHSw3E0ovcmQ8RA7n0WSAQ%3D%3D",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42c04c36ba14321b887e7666d215d3fbd01a733e21a0b69f61467e0e5efb42fcb0.jpeg"
+      },
+      {
+        "name": "Dubai Mall",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Dubai+Mall&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L-hsVMazCecU3gO1dW6gMZ_oAKrOD3XZ7VPesoXrXQR2LCsVrg%3D%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAhBEAk",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Dubai+Mall&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L-hsVMazCecU3gO1dW6gMZ_oAKrOD3XZ7VPesoXrXQR2LCsVrg%3D%3D",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42c04c36ba14321b887e7666d215d3fbd05d53410ca2511f70976b3c113fc253fb.jpeg"
+      },
+      {
+        "name": "Dubai Miracle Garden",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Dubai+Miracle+Garden&si=ACC90nwLLwns5sISZcdzuISy7t-NHozt8Cbt6G3WNQfC9ekAgBZ2qpy2P16rx1f7ieC6H8Ke93cYZma13PdkiPN6k5Yw67g55w%3D%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAhBEAs",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Dubai+Miracle+Garden&si=ACC90nwLLwns5sISZcdzuISy7t-NHozt8Cbt6G3WNQfC9ekAgBZ2qpy2P16rx1f7ieC6H8Ke93cYZma13PdkiPN6k5Yw67g55w%3D%3D",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42c04c36ba14321b887e7666d215d3fbd09534229197e4a2d9bebad3a5713fb193.jpeg"
+      }
+    ],
+    "points_of_interest_link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=&si=ACC90nznBj2t6hZAt8GBNdC4h5m0rJuDcW6kosS87yeizcBXxjqOs3ScD0r0qFoQkjBADtW-7y2XcQKq6VTORr0IXlgl85SpHLKdsuuXzwGVahk3mRhCfIA%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ7NoKKAB6BAhBEAE",
+    "people_also_search_for": [
+      {
+        "name": "United Arab Emirates",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=United+Arab+Emirates&si=ACC90nyvvWro6QmnyY1IfSdgk5wwjB1r8BGd_IWRjXqmKPQqm0GqPDaJGvkdnzl1rjV4vBNxM8YnEYsWjTp6qFUMEsZBLToSJO5NP9VGKB_gGJ04ws1lWTOYddmlGQMtHN2v3fdsKoE-p5rnyM-lokc3FEMwvY1ysTW_1xkZgJEpaUiHl6fmgk9F_OKvPpOapBzULigObf-mww5vkh-pH0xz9dQEH6uWzX0CwPm5IFYLgB-e4j9lJYSyHuUQAk0OR-Cp810Za0AxwRYnNSoGMxyOGfhR9rkWTmlb40CKUcaZeDrz7SeS6kgfFOht7i1As1B2acvRe0ln&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAg3EAU",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=United+Arab+Emirates&si=ACC90nyvvWro6QmnyY1IfSdgk5wwjB1r8BGd_IWRjXqmKPQqm0GqPDaJGvkdnzl1rjV4vBNxM8YnEYsWjTp6qFUMEsZBLToSJO5NP9VGKB_gGJ04ws1lWTOYddmlGQMtHN2v3fdsKoE-p5rnyM-lokc3FEMwvY1ysTW_1xkZgJEpaUiHl6fmgk9F_OKvPpOapBzULigObf-mww5vkh-pH0xz9dQEH6uWzX0CwPm5IFYLgB-e4j9lJYSyHuUQAk0OR-Cp810Za0AxwRYnNSoGMxyOGfhR9rkWTmlb40CKUcaZeDrz7SeS6kgfFOht7i1As1B2acvRe0ln",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42fb8aa2a6104089e6ec995c642f81bb1d6b5e1d048a2e1e0df65ebe18d0a7e39f.png"
+      },
+      {
+        "name": "Abu Dhabi",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Abu+Dhabi&si=ACC90nyYzndfSpHALlN52qAqlQZE2s8nxEbc9OSW3jbjf5_eZttF_ci1IopzRFE3jIW7Zvts0Nf9_vvVS0AcGYABKVhuv3tKMFe3ZuueCe67ngRT7pUxCV0uV7Q8kQLRxvH60Oe3aD2rxP2vGyTU8hHmna1G7prNoqZT3vjKkIsCqzL8HKQAYj6u6NYPFmTu-FVABUhXpnPAH-xXoIHdQO-WgYcqmBdU0IkEvN9L-u4FoCbIOgZ0J7clt2h4bowHIeJZAebDu9YIK-m3UGA_Kx_Hl9O-FOKFxOWeFVi8fUc9nmsfADQffXE%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAg3EAc",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Abu+Dhabi&si=ACC90nyYzndfSpHALlN52qAqlQZE2s8nxEbc9OSW3jbjf5_eZttF_ci1IopzRFE3jIW7Zvts0Nf9_vvVS0AcGYABKVhuv3tKMFe3ZuueCe67ngRT7pUxCV0uV7Q8kQLRxvH60Oe3aD2rxP2vGyTU8hHmna1G7prNoqZT3vjKkIsCqzL8HKQAYj6u6NYPFmTu-FVABUhXpnPAH-xXoIHdQO-WgYcqmBdU0IkEvN9L-u4FoCbIOgZ0J7clt2h4bowHIeJZAebDu9YIK-m3UGA_Kx_Hl9O-FOKFxOWeFVi8fUc9nmsfADQffXE%3D",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42fb8aa2a6104089e6ec995c642f81bb1dc0dea5dbc3c3db3df3c7d71f032aa365.jpeg"
+      },
+      {
+        "name": "Burj Khalifa",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Burj+Khalifa&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L6e2elkVhDkdxzoTUOB76LkiOPvtq_6HkYg1emXsRuLFrwbo41VBoZGiTKkc-KWZX2yELyLcQ07CJOlezjnONOPZ85_tEuPVyscQVKEumUssOwT2vna2qZyOaycF2JG6aCZiIfP-kIv3Se-L6uJ7WQfZwDkg-exMckDak9UN9q_rfFyWWCW-IL9qmeISxNDn6q1onuIT53LCw3zZsEYnVNrReOTbX5bTupBqjaAXaDYvJF23UROK_YZP_DrdDz0zAP4dWyY%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAg3EAk",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Burj+Khalifa&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L6e2elkVhDkdxzoTUOB76LkiOPvtq_6HkYg1emXsRuLFrwbo41VBoZGiTKkc-KWZX2yELyLcQ07CJOlezjnONOPZ85_tEuPVyscQVKEumUssOwT2vna2qZyOaycF2JG6aCZiIfP-kIv3Se-L6uJ7WQfZwDkg-exMckDak9UN9q_rfFyWWCW-IL9qmeISxNDn6q1onuIT53LCw3zZsEYnVNrReOTbX5bTupBqjaAXaDYvJF23UROK_YZP_DrdDz0zAP4dWyY%3D",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42fb8aa2a6104089e6ec995c642f81bb1db31d812e09157525de471f5187a982d0.jpeg"
+      },
+      {
+        "name": "Saudi Arabia",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Saudi+Arabia&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L2zltS9fCf22wtIrhse9rFA_IHz8e5GLh3YwxqB5GmTEVX6B3tFjGwtuCfIKuz8j_Qd6vc5u0UhXoRzjcZsQmnwoiyD2ec0IzEk5DWfwa0ob0eHzBAMLGfx_VwanqTwrQketalFH28siHUPGaH_N-e57KXwjgy82jB_VlQ_r7bNyxpUOoHEqT7ojbwd8-cPeO7SwgVH7yxpkq1ONYCAuEiyJ6rh8kQCWmJ-wtv_JqAdtdCMTzZ3ZRYqty6gEbKU2CKL8cEM%3D&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQxA16BAg3EAs",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Saudi+Arabia&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L2zltS9fCf22wtIrhse9rFA_IHz8e5GLh3YwxqB5GmTEVX6B3tFjGwtuCfIKuz8j_Qd6vc5u0UhXoRzjcZsQmnwoiyD2ec0IzEk5DWfwa0ob0eHzBAMLGfx_VwanqTwrQketalFH28siHUPGaH_N-e57KXwjgy82jB_VlQ_r7bNyxpUOoHEqT7ojbwd8-cPeO7SwgVH7yxpkq1ONYCAuEiyJ6rh8kQCWmJ-wtv_JqAdtdCMTzZ3ZRYqty6gEbKU2CKL8cEM%3D",
+        "image": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/08e153d8e13b1eb042fef55103066f42fb8aa2a6104089e6ec995c642f81bb1d19261c6879f7d037097f65e0486b66f6.png"
+      }
+    ],
+    "people_also_search_for_link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Dubai&stick=H4sIAAAAAAAAAONgFuLUz9U3MEwzsChSQjC1BIMzU1LLEyuL_VIrSoJLUguKF7GyupQmJWbuYGUEAKSwDUg2AAAA&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQMSgAegQINxAB",
+    "people_also_search_for_stick": "H4sIAAAAAAAAAONgFuLUz9U3MEwzsChSQjC1BIMzU1LLEyuL_VIrSoJLUguKF7GyupQmJWbuYGUEAKSwDUg2AAAA"
+  },
+  "related_questions": [
+    {
+      "question": "What is the basic information about Dubai?",
+      "snippet": "Dubai is the second largest emirate in the United Arab Emirates (UAE) sharing borders with Abu Dhabi in the south, Sharjah in the northeast, and the Sultanate of Oman in the southeast. The emirate of Dubai covers an area of 4,114 square kilometres.",
+      "title": "Dubai - A city profile - Eye on Asia",
+      "link": "https://www.eyeonasia.gov.sg/other-asian-countries/uae/dubai-a-city-profile/#:~:text=Dubai%20is%20the%20second%20largest,of%20Oman%20in%20the%20southeast.&text=The%20emirate%20of%20Dubai%20covers%20an%20area%20of%204%2C114%20square%20kilometres.",
+      "displayed_link": "https://www.eyeonasia.gov.sg › other-asian-countries › uae",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gem1WgMhyVFg7lW3TIv1rneGXur6RegTcT7JI6H6KQ&s",
+      "source_logo": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/7d1a33475531a1c468224ed8e44bc5d7bac07812c800b0f199ab73bc84629e43.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGJhc2ljIGluZm9ybWF0aW9uIGFib3V0IER1YmFpPyIsImxrIjoiR2gxaVlYTnBZeUJwYm1admNtMWhkR2x2YmlCaFltOTFkQ0JrZFdKaGFRIiwiYnMiOiJjLU1LNE5JS3owZ3NVY2dzVmlqSlNGVklTaXpPVEZiSXpFdkxMOHBOTE1uTXoxTklUTW92TFZGd0tVMUt6TFNYZU9Gb0pDOGxpMHRSQ2tnUlZ4U1hKdGpFeEtKVUJWT2dxcExVb3RUaWtzeThkSVcweE9TU1lsUUQ1eGdZYVVscGxCTldEekhiZ1VzRzV0cmlndFRrek1RY1ZPUG0xeGpKU2ttWFkxVUNNY0dOU3g3dU9wQ0hEUTBVaWtwelVvdUJGc01NLVdwdHBDQWxWNDVMRmRnY0FVWUEiLCJpZCI6ImZjXzEifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGJhc2ljIGluZm9ybWF0aW9uIGFib3V0IER1YmFpPyIsImxrIjoiR2gxaVlYTnBZeUJwYm1admNtMWhkR2x2YmlCaFltOTFkQ0JrZFdKaGFRIiwiYnMiOiJjLU1LNE5JS3owZ3NVY2dzVmlqSlNGVklTaXpPVEZiSXpFdkxMOHBOTE1uTXoxTklUTW92TFZGd0tVMUt6TFNYZU9Gb0pDOGxpMHRSQ2tnUlZ4U1hKdGpFeEtKVUJWT2dxcExVb3RUaWtzeThkSVcweE9TU1lsUUQ1eGdZYVVscGxCTldEekhiZ1VzRzV0cmlndFRrek1RY1ZPUG0xeGpKU2ttWFkxVUNNY0dOU3g3dU9wQ0hEUTBVaWtwelVvdUJGc01NLVdwdHBDQWxWNDVMRmRnY0FVWUEiLCJpZCI6ImZjXzEifQ%3D%3D"
+    },
+    {
+      "question": "What are 5 interesting facts about Dubai?",
+      "title": "12 things to know about Dubai that will inspire your next trip",
+      "date": "Oct 5, 2023",
+      "link": "https://www.getyourguide.com/explorer/dubai-ttd173/facts-about-dubai/",
+      "list": [
+        "It's a very young city, but it's growing fast. ... ",
+        "The city is a birder's paradise. ... ",
+        "Its tallest building is based on a flower. ... ",
+        "The cuisine is truly cosmopolitan. ... ",
+        "Its art scene is flourishing. ... ",
+        "Robots work as jockeys. ... ",
+        "There's a whole museum dedicated to coffee."
+      ],
+      "displayed_link": "https://www.getyourguide.com › explorer › dubai-ttd173",
+      "source_logo": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/7d1a33475531a1c468224ed8e44bc5d7f348237fed8deee14a0de14bc9d2bc00.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgYXJlIDUgaW50ZXJlc3RpbmcgZmFjdHMgYWJvdXQgRHViYWk/IiwibGsiOiJHaWgzYUdGMElHRnlaU0ExSUdsdWRHVnlaWE4wYVc1bklHWmhZM1J6SUdGaWIzVjBJR1IxWW1GcCIsImJzIjoiYy1NSzROSUt6MGdzVWNnc1ZpakpTRlZJU2l6T1RGYkl6RXZMTDhwTkxNbk16MU5JVE1vdkxWRndLVTFLekxTWGVPRm9KQzhsaTB0UkNrZ1JWeFNYSnRqRXhLSlVCVk9ncXBMVW90VGlrc3k4ZElXMHhPU1NZbFFENXhnWWFVbHBsQk5XRHpIYmdVc0c1dHJpZ3RUa3pNUWNWT1BtMXhqSlNrbVhZMVVDTWNHTlN4N3VPcENIRFEwVWlrcHpVb3VCRnNNTS1XcHRwQ0FsVjQ1TEZkZ2NBVVlBIiwiaWQiOiJmY18xIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgYXJlIDUgaW50ZXJlc3RpbmcgZmFjdHMgYWJvdXQgRHViYWk%2FIiwibGsiOiJHaWgzYUdGMElHRnlaU0ExSUdsdWRHVnlaWE4wYVc1bklHWmhZM1J6SUdGaWIzVjBJR1IxWW1GcCIsImJzIjoiYy1NSzROSUt6MGdzVWNnc1ZpakpTRlZJU2l6T1RGYkl6RXZMTDhwTkxNbk16MU5JVE1vdkxWRndLVTFLekxTWGVPRm9KQzhsaTB0UkNrZ1JWeFNYSnRqRXhLSlVCVk9ncXBMVW90VGlrc3k4ZElXMHhPU1NZbFFENXhnWWFVbHBsQk5XRHpIYmdVc0c1dHJpZ3RUa3pNUWNWT1BtMXhqSlNrbVhZMVVDTWNHTlN4N3VPcENIRFEwVWlrcHpVb3VCRnNNTS1XcHRwQ0FsVjQ1TEZkZ2NBVVlBIiwiaWQiOiJmY18xIn0%3D"
+    },
+    {
+      "question": "What is special about Dubai?",
+      "snippet": "Dubai is a unique destination, unlike any other city in the world. It's a place where you can find the world's tallest building, the biggest mall, and even man-made islands shaped like palm trees. But what truly sets Dubai apart is its audacious spirit and relentless pursuit of extravagance.",
+      "title": "What makes Dubai unique and worth visiting? How does it differ ... - Quora",
+      "date": "Mar 6, 2024",
+      "link": "https://www.quora.com/What-makes-Dubai-unique-and-worth-visiting-How-does-it-differ-from-other-cities-in-the-world#:~:text=Dubai%20is%20a%20unique%20destination,and%20relentless%20pursuit%20of%20extravagance.",
+      "displayed_link": "https://www.quora.com › What-makes-Dubai-unique-an...",
+      "source_logo": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/7d1a33475531a1c468224ed8e44bc5d78bc40e736eb55546c22c0827012e8382.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgc3BlY2lhbCBhYm91dCBEdWJhaT8iLCJsayI6IkdodDNhR0YwSUdseklITndaV05wWVd3Z1lXSnZkWFFnWkhWaVlXayIsImJzIjoiYy1NSzROSUt6MGdzVWNnc1ZpakpTRlZJU2l6T1RGYkl6RXZMTDhwTkxNbk16MU5JVE1vdkxWRndLVTFLekxTWGVPRm9KQzhsaTB0UkNrZ1JWeFNYSnRqRXhLSlVCVk9ncXBMVW90VGlrc3k4ZElXMHhPU1NZbFFENXhnWWFVbHBsQk5XRHpIYmdVc0c1dHJpZ3RUa3pNUWNWT1BtMXhqSlNrbVhZMVVDTWNHTlN4N3VPcENIRFEwVWlrcHpVb3VCRnNNTS1XcHRwQ0FsVjQ1TEZkZ2NBVVlBIiwiaWQiOiJmY18xIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgc3BlY2lhbCBhYm91dCBEdWJhaT8iLCJsayI6IkdodDNhR0YwSUdseklITndaV05wWVd3Z1lXSnZkWFFnWkhWaVlXayIsImJzIjoiYy1NSzROSUt6MGdzVWNnc1ZpakpTRlZJU2l6T1RGYkl6RXZMTDhwTkxNbk16MU5JVE1vdkxWRndLVTFLekxTWGVPRm9KQzhsaTB0UkNrZ1JWeFNYSnRqRXhLSlVCVk9ncXBMVW90VGlrc3k4ZElXMHhPU1NZbFFENXhnWWFVbHBsQk5XRHpIYmdVc0c1dHJpZ3RUa3pNUWNWT1BtMXhqSlNrbVhZMVVDTWNHTlN4N3VPcENIRFEwVWlrcHpVb3VCRnNNTS1XcHRwQ0FsVjQ1TEZkZ2NBVVlBIiwiaWQiOiJmY18xIn0%3D"
+    },
+    {
+      "question": "What are the 10 rules in Dubai?",
+      "title": "Therefore given below are some important rules for people visiting Dubai for the first time.",
+      "link": "https://mxdubai.com/10-important-rules-first-time-visitors-dubai/",
+      "list": [
+        "Important Rules:",
+        "Wear appropriate clothes: ... ",
+        "Restrictions in the month of Ramadan: ... ",
+        "Prohibition of loud music: ... ",
+        "Reserve your tickets for Burj Khalifa: ... ",
+        "Never Swear: ... ",
+        "Avoid summers of Dubai: ... ",
+        "No casino in Dubai:"
+      ],
+      "displayed_link": "https://mxdubai.com › 10-important-rules-first-time-visit...",
+      "source_logo": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/7d1a33475531a1c468224ed8e44bc5d7b5ef0e244bc46f48879387e555d543dd.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSAxMCBydWxlcyBpbiBEdWJhaT8iLCJsayI6IkdoNTNhR0YwSUdGeVpTQjBhR1VnTVRBZ2NuVnNaWE1nYVc0Z1pIVmlZV2siLCJicyI6ImMtTUs0TklLejBnc1VjZ3NWaWpKU0ZWSVNpek9URmJJekV2TEw4cE5MTW5NejFOSVRNb3ZMVkZ3S1UxS3pMU1hlT0ZvSkM4bGkwdFJDa2dSVnhTWEp0akV4S0pVQlZPZ3FwTFVvdFRpa3N5OGRJVzB4T1NTWWxRRDV4Z1lhVWxwbEJOV0R6SGJnVXNHNXRyaWd0VGt6TVFjVk9QbTF4akpTa21YWTFVQ01jR05TeDd1T3BDSERRMFVpa3B6VW91QkZzTU0tV3B0cENBbFY0NUxGZGdjQVVZQSIsImlkIjoiZmNfMSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T1pIWXljalpPZGw4ek9UQm1lRmg0VDFkWmIzRnNUbFp0WDJZM1FrWXlNbXhFYWs5QlZWbG1jMnQ2V0dWV2VtTlNXalJ6Tmw5ZkxWOW9kVzk0Tm1sYVVUYzVNMmRDRWhkNE9FWnhXblpJTmtSWlluUnJkbEZRYzNaNVJYTkJkeG9pUVVaWWNrVmpiMVJuYTIxM09XWldUbkJvZFhjMmJVSnlNV0o0Y1VwM2FuUldRUSIsImZjdiI6IjMiLCJlaSI6Ing4RnFadkg2RFlidGt2UVBzdnlFc0F3IiwicWMiOiJjLVBTU3M4c1MxWEl6UzlLVmNqTVM4c3Z5azBzeWN6UFV3Q2lsTktreEV5RmxOVGlrc3c4c0tBQVEtM2NzX0wyQUEiLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSAxMCBydWxlcyBpbiBEdWJhaT8iLCJsayI6IkdoNTNhR0YwSUdGeVpTQjBhR1VnTVRBZ2NuVnNaWE1nYVc0Z1pIVmlZV2siLCJicyI6ImMtTUs0TklLejBnc1VjZ3NWaWpKU0ZWSVNpek9URmJJekV2TEw4cE5MTW5NejFOSVRNb3ZMVkZ3S1UxS3pMU1hlT0ZvSkM4bGkwdFJDa2dSVnhTWEp0akV4S0pVQlZPZ3FwTFVvdFRpa3N5OGRJVzB4T1NTWWxRRDV4Z1lhVWxwbEJOV0R6SGJnVXNHNXRyaWd0VGt6TVFjVk9QbTF4akpTa21YWTFVQ01jR05TeDd1T3BDSERRMFVpa3B6VW91QkZzTU0tV3B0cENBbFY0NUxGZGdjQVVZQSIsImlkIjoiZmNfMSJ9"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Dubai Travel Guide",
+      "link": "https://travel.usnews.com/Dubai_United_Arab_Emirates/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://travel.usnews.com/Dubai_United_Arab_Emirates/&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECBAQAQ",
+      "displayed_link": "https://travel.usnews.com › ... › United Arab Emirates",
+      "thumbnail": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4cade64953fd0d1dd91c8c4f12bfc59cd32.jpeg",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca573eab118c86ecacbc21406557d0ac81.png",
+      "snippet": "Guide to the best hotels and things to do in Dubai. Maps, travel tips and more.",
+      "snippet_highlighted_words": [
+        "Dubai",
+        "travel",
+        "more"
+      ],
+      "source": "U.S. News Travel"
+    },
+    {
+      "position": 2,
+      "title": "All You Need to Know Before Traveling to Dubai",
+      "link": "https://www.visitdubai.com/en/plan-your-trip/practical-information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.visitdubai.com/en/plan-your-trip/practical-information&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECA8QAQ",
+      "displayed_link": "https://www.visitdubai.com › Visit Dubai › Plan your trip",
+      "thumbnail": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca3c74d8eef52c2afea30ba5de735531bd.jpeg",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca7336be2c71c1d0b4aed1f6e27f62c5cd.png",
+      "snippet": "Discover all you need to know while planning your dream holiday to Dubai. Find information about Dubai's weather, dress code and more on Visit Dubai.",
+      "snippet_highlighted_words": [
+        "Dubai's weather, dress code"
+      ],
+      "source": "Visit Dubai"
+    },
+    {
+      "position": 3,
+      "title": "Tourism in Dubai",
+      "link": "https://en.wikipedia.org/wiki/Tourism_in_Dubai",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Tourism_in_Dubai&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECBQQAQ",
+      "displayed_link": "https://en.wikipedia.org › wiki › Tourism_in_Dubai",
+      "thumbnail": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca464545f8a446d125898d01ae97b4e108.jpeg",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca6f20299e9300d5f44e1910bb527286a3.png",
+      "snippet": "Dubai is one of the world's leading tourism destinations, and tourism in Dubai is a major source of revenue. The city hosted 14.9 million overnight visitors ...",
+      "snippet_highlighted_words": [
+        "Dubai",
+        "tourism destinations",
+        "tourism",
+        "Dubai"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "History",
+            "link": "https://en.wikipedia.org/wiki/Tourism_in_Dubai#History"
+          },
+          {
+            "title": "Visitors and visitor spending",
+            "link": "https://en.wikipedia.org/wiki/Tourism_in_Dubai#Visitors_and_visitor_spending"
+          },
+          {
+            "title": "Accommodation",
+            "link": "https://en.wikipedia.org/wiki/Tourism_in_Dubai#Accommodation"
+          },
+          {
+            "title": "Attractions",
+            "link": "https://en.wikipedia.org/wiki/Tourism_in_Dubai#Attractions"
+          }
+        ]
+      },
+      "missing": [
+        "give"
+      ],
+      "must_include": {
+        "word": "give",
+        "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=%22give%22+more+information+on+dubai+Destination&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ5t4CegQILRAB"
+      },
+      "source": "Wikipedia"
+    },
+    {
+      "position": 4,
+      "title": "Dubai Travel Guide",
+      "link": "https://www.travelandleisure.com/travel-guide/dubai",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.travelandleisure.com/travel-guide/dubai&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECBMQAQ",
+      "displayed_link": "https://www.travelandleisure.com › ... › Dubai",
+      "thumbnail": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca3bd975729a8a24fa4393afb06680921a.jpeg",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4caae6c51e7b2607c6a254a6d6d840ef847.png",
+      "date": "Oct 2, 2023",
+      "snippet": "Visit Dubai for an unforgettable adventure. Discover the best hotels, restaurants and things to do with this highly curated Dubai travel ...",
+      "snippet_highlighted_words": [
+        "Visit Dubai",
+        "Dubai travel"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Best Hotels & Resorts",
+            "link": "https://www.travelandleisure.com/travel-guide/dubai#toc-best-hotels--resorts"
+          },
+          {
+            "title": "Best Things to Do",
+            "link": "https://www.travelandleisure.com/travel-guide/dubai#toc-best-things-to-do"
+          },
+          {
+            "title": "Best Shopping",
+            "link": "https://www.travelandleisure.com/travel-guide/dubai#toc-best-shopping"
+          },
+          {
+            "title": "Best Restaurants",
+            "link": "https://www.travelandleisure.com/travel-guide/dubai#toc-best-restaurants"
+          }
+        ]
+      },
+      "source": "Travel + Leisure"
+    },
+    {
+      "position": 5,
+      "title": "What is your opinion on Dubai as a tourist destination? Do ...",
+      "link": "https://www.quora.com/What-is-your-opinion-on-Dubai-as-a-tourist-destination-Do-you-think-it-is-popular-among-tourists-from-your-country",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.quora.com/What-is-your-opinion-on-Dubai-as-a-tourist-destination-Do-you-think-it-is-popular-among-tourists-from-your-country&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECGsQAQ",
+      "displayed_link": "https://www.quora.com › What-is-your-opinion-on-Du...",
+      "thumbnail": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca81bf9ed5ebcebd050e8c6ff3cc769f37.jpeg",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4caa54730273fba69f1b0b17a842069f71a.png",
+      "snippet": "Dubai offers plenty of shopping options at places like the Dubai Mall and stunning building like the Burj Khalifa if you prefer city experiences ...",
+      "snippet_highlighted_words": [
+        "offers plenty of shopping options"
+      ],
+      "source": "Quora"
+    },
+    {
+      "position": 6,
+      "title": "Dubai Travel Guide for First Time Visitors!",
+      "link": "https://thesophisticatedlife.com/blog/dubai-travel-guide-first-time-visitors/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://thesophisticatedlife.com/blog/dubai-travel-guide-first-time-visitors/&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECGcQAQ",
+      "displayed_link": "https://thesophisticatedlife.com › blog › dubai-travel-gu...",
+      "thumbnail": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca1c28b931ed5cb45b3bd89c1019e215bb.jpeg",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca35076e254e902c2842f6b391c7542fe8.jpeg",
+      "date": "Apr 12, 2023",
+      "snippet": "Planning a trip to Dubai? This Travel Guide is full of tips about where to stay, how to get around, what to eat, and what to do (and not do!)",
+      "snippet_highlighted_words": [
+        "Dubai",
+        "Travel",
+        "about"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Getting Around Dubai",
+            "link": "https://thesophisticatedlife.com/blog/dubai-travel-guide-first-time-visitors/#:~:text=Getting%20Around%20Dubai"
+          },
+          {
+            "title": "Atlantis, The Palm",
+            "link": "https://thesophisticatedlife.com/blog/dubai-travel-guide-first-time-visitors/#:~:text=Atlantis%2C%20The%20Palm"
+          },
+          {
+            "title": "The Dubai Fountains",
+            "link": "https://thesophisticatedlife.com/blog/dubai-travel-guide-first-time-visitors/#:~:text=The%20Dubai%20Fountains,-The%20Dubai%20Fountains"
+          }
+        ]
+      },
+      "source": "The Sophisticated Life"
+    },
+    {
+      "position": 7,
+      "title": "What makes Dubai stand out as a tourist destination?",
+      "link": "https://www.quora.com/What-makes-Dubai-stand-out-as-a-tourist-destination",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.quora.com/What-makes-Dubai-stand-out-as-a-tourist-destination&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECGoQAQ",
+      "displayed_link": "https://www.quora.com › What-makes-Dubai-stand-out...",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ_v8uuK3-37MhkYitPxDllwXGCQ9Jf9C-0PlmL_LpUq7DlO9MQ3Wi&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca0a611b7a0a25d17072bbc950de31fc52.png",
+      "snippet": "I Think Dubai is often considered to be a tourist destination because it offers many things for all types of people. There are great ...",
+      "snippet_highlighted_words": [
+        "often considered to be a tourist destination"
+      ],
+      "source": "Quora"
+    },
+    {
+      "position": 8,
+      "title": "About Dubai | History and Facts",
+      "link": "https://www.visitdubai.com/en/explore-dubai/about-dubai",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.visitdubai.com/en/explore-dubai/about-dubai&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECF4QAQ",
+      "displayed_link": "https://www.visitdubai.com › Visit Dubai › Explore Dubai",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrjgPUQH5Zdi-3auu7p345THPtk0QZgPc5sYk7EJ1gg8bQcFKaA7C&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4ca9dcaf3f2ef382424ad6a7f695a06d114.png",
+      "snippet": "One of the seven emirates that make up the United Arab Emirates, the city is home to more than 200 nationalities and offers an unforgettable experience to all ...",
+      "snippet_highlighted_words": [
+        "city is home to more than 200 nationalities"
+      ],
+      "source": "Visit Dubai"
+    },
+    {
+      "position": 9,
+      "title": "Dubai (city) | Geography, Map, & History",
+      "link": "https://www.britannica.com/place/Dubai-United-Arab-Emirates",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.britannica.com/place/Dubai-United-Arab-Emirates&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQFnoECGYQAQ",
+      "displayed_link": "https://www.britannica.com › ... › Cities & Towns C-G",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-e99yBh5N9dDXvBhHs982rwYg_UnOkpc9-3TTX-MWbluakblDiu7&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/666ac1c7e4a23d8029e0cb13/images/4a030ccf280a89d3fc34e1a626a7a4cae8479f48a300c2f7522d96b8c65ad669.png",
+      "date": "4 days ago",
+      "snippet": "Dubai is a city of skyscrapers, ports, and beaches, where big business takes place alongside sun-seeking tourism. Because of its large ...",
+      "snippet_highlighted_words": [
+        "a city of skyscrapers, ports, and beaches"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Landscape",
+            "link": "https://www.britannica.com/place/Dubai-United-Arab-Emirates#:~:text=Landscape,-Palm%20Jumeirah"
+          },
+          {
+            "title": "City Site And Layout",
+            "link": "https://www.britannica.com/place/Dubai-United-Arab-Emirates#:~:text=City%20site%20and%20layout,-Dubai%2C%20United%20Arab%20Emirates"
+          },
+          {
+            "title": "Economy Of Dubai",
+            "link": "https://www.britannica.com/place/Dubai-United-Arab-Emirates#:~:text=Economy%20of%20Dubai"
+          }
+        ]
+      },
+      "source": "Britannica"
+    }
+  ],
+  "top_stories_link": "https://www.google.com/search?q=give+more+information+on+dubai+Destination&sca_esv=7a2c727ac526d59d&udm=18&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ8poLegQIXRAF",
+  "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=give+more+information+on+dubai+Destination",
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Give more information on dubai destination wikipedia",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Give+more+information+on+dubai+destination+wikipedia&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhcEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Give+more+information+on+dubai+destination+wikipedia"
+    },
+    {
+      "block_position": 1,
+      "query": "is it safe to travel to dubai right now",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Is+it+safe+to+travel+to+Dubai+right+now&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhbEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Is+it+safe+to+travel+to+Dubai+right+now"
+    },
+    {
+      "block_position": 1,
+      "query": "travelling to dubai for the first time",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Travelling+to+Dubai+for+the+first+time&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhaEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Travelling+to+Dubai+for+the+first+time"
+    },
+    {
+      "block_position": 1,
+      "query": "traveling to dubai as a woman",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Traveling+to+Dubai+as+a+woman&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhZEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Traveling+to+Dubai+as+a+woman"
+    },
+    {
+      "block_position": 1,
+      "query": "dubai rules for tourist",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Dubai+rules+for+tourist&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhYEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Dubai+rules+for+tourist"
+    },
+    {
+      "block_position": 1,
+      "query": "dubai travel guide",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Dubai+travel+guide&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhXEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Dubai+travel+guide"
+    },
+    {
+      "block_position": 1,
+      "query": "how many tourists visit dubai each year",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=How+many+tourists+visit+Dubai+each+year&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhSEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=How+many+tourists+visit+Dubai+each+year"
+    },
+    {
+      "block_position": 1,
+      "query": "dubai travel guide pdf",
+      "link": "https://www.google.com/search?sca_esv=7a2c727ac526d59d&q=Dubai+Travel+guide+pdf&sa=X&ved=2ahUKEwix-sjap9iGAxWGtoQIHTI-AcYQ1QJ6BAhTEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Dubai+Travel+guide+pdf"
+    }
+  ],
+  "discussions_and_forums": [
+    {
+      "title": "What attracts you the more to Dubai as a tourist? - Quora",
+      "link": "https://www.quora.com/What-attracts-you-the-more-to-Dubai-as-a-tourist",
+      "date": "2y ago",
+      "extensions": [
+        "6 answers"
+      ],
+      "source": "Quora"
+    },
+    {
+      "title": "Dubai as a tourist destination - Dubai Forum - Tripadvisor",
+      "link": "https://www.tripadvisor.com/ShowTopic-g295424-i872-k11747143-Dubai_as_a_tourist_destination-Dubai_Emirate_of_Dubai.html",
+      "date": "5y ago",
+      "extensions": [
+        "10+ answers"
+      ],
+      "source": "Tripadvisor"
+    },
+    {
+      "title": "What's the fascination with Dubai? : r/AskUK - Reddit",
+      "link": "https://www.reddit.com/r/AskUK/comments/vaixh9/whats_the_fascination_with_dubai/",
+      "date": "2y ago",
+      "extensions": [
+        "r/AskUK",
+        "2K+ comments"
+      ],
+      "source": "Reddit"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=give+more+information+on+dubai+Destination&oq=give+more+information+on+dubai+Destination&start=10&sourceid=chrome&ie=UTF-8",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=give+more+information+on+dubai+Destination&oq=give+more+information+on+dubai+Destination&start=10&sourceid=chrome&ie=UTF-8",
+      "3": "https://www.google.com/search?q=give+more+information+on+dubai+Destination&oq=give+more+information+on+dubai+Destination&start=20&sourceid=chrome&ie=UTF-8",
+      "4": "https://www.google.com/search?q=give+more+information+on+dubai+Destination&oq=give+more+information+on+dubai+Destination&start=30&sourceid=chrome&ie=UTF-8",
+      "5": "https://www.google.com/search?q=give+more+information+on+dubai+Destination&oq=give+more+information+on+dubai+Destination&start=40&sourceid=chrome&ie=UTF-8"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=give+more+information+on+dubai+Destination&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=give+more+information+on+dubai+Destination&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=give+more+information+on+dubai+Destination&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=give+more+information+on+dubai+Destination&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=give+more+information+on+dubai+Destination&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=give+more+information+on+dubai+Destination&start=40"
+    }
+  }
+}

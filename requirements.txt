@@ -3,7 +3,16 @@ langchain
 langchain_community
 streamlit
 python-dotenv
-PyPDF2
 langchain_openai
+streamlit_carousel
+pinecone-client
+tiktoken
+langchain_pinecone 
+langchain-text-splitters
+Wikipedia-API
+wikipedia
+fuzzywuzzy
+twilio
+flask
 
 -e .
