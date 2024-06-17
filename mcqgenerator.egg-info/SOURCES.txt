@@ -10,5 +10,6 @@ src/mcqgenerator/IteninaryGenerator.py
 src/mcqgenerator/IteninaryGeneratorSingle.py
 src/mcqgenerator/MCQGenerator.py
 src/mcqgenerator/__init__.py
+src/mcqgenerator/common.py
 src/mcqgenerator/logger.py
 src/mcqgenerator/utils.py
