@@ -9,7 +9,7 @@ st.set_page_config(
     }
 )
 # Function to create a grid layout
-def create_grid(places, columns=4):
+def create_grid(places, columns=6):
     rows = len(places) // columns + int(len(places) % columns > 0)
     selected_places = []
     for row in range(rows):
@@ -162,7 +162,7 @@ def generate_home_page():
                 # Display the extracted video URLs
                 if video_urls:
                     st.header(f"Videos related to {location}")
-                    n = 3
+                    n = 5
                     groups = []
                     for i in range(0,len(video_urls), n):
                         groups.append(video_urls[i:i+n])

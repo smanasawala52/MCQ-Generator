@@ -122,7 +122,7 @@ def display_Iteninary_gpt(st,itinerary):
             st.markdown(title)
             #st.image(day['image_urls'][0], width=200)
             #st.write(day['long_descriptions'][0])
-            cols = st.columns([1, 2])
+            cols = st.columns([1, 4])
             with cols[0]:
                 #st.image(day['image_urls'][0], width=150)
                 images = [{'img': url, 'title': '', 'text': ''} for url in ordered_set(day['image_urls'])]
