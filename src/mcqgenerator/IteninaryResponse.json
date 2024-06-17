@@ -1,0 +1,29 @@
+{
+    "1" :{
+        "day": 1,
+        "cities" : ["city1","city2"],
+        "places_covered" : ["place1","place2"],
+        "image_urls": ["image_URL_1", "Image_URL_2"],
+        "activity_titles": ["Day 1 activity title"],
+        "short_descriptions": ["short description of Day 1 Locations and activities"],
+        "long_descriptions": ["Indepth description and details of Day 1 Locations and activities"]
+    },
+    "2" :{
+        "day": 2,
+        "cities" : ["city1","city2"],
+        "places_covered" : ["place1","place2"],
+        "image_urls": ["image_URL_1", "Image_URL_2"],
+        "activity_titles": ["Day 2 activity title"],
+        "short_descriptions": ["short description of Day 2 Locations and activities"],
+        "long_descriptions": ["Indepth description and details of Day 2 Locations and activities"]
+    },
+    "3" :{
+        "day": 3,
+        "cities" : ["city1","city2"],
+        "places_covered" : ["place1","place2"],
+        "image_urls": ["image_URL_1", "Image_URL_2"],
+        "activity_titles": ["Day 3 activity title"],
+        "short_descriptions": ["short description of Day 3 Locations and activities"],
+        "long_descriptions": ["Indepth description and details of Day 3 Locations and activities"]
+    }
+}

@@ -20,7 +20,7 @@ KT_PINECONE_API_KEY = os.getenv('KT_PINECONE_API_KEY')
 KT_SERP_API_KEY = os.getenv('KT_SERP_API_KEY')
 TRIPADVISOR_API_KEY = os.getenv('TRIPADVISOR_API_KEY')
 os.environ["PINECONE_API_KEY"] = KT_PINECONE_API_KEY
-quiz_generation_template_response_json = open_file_in_same_directory('..\\..\\response_jsons\\IteninaryResponse.json')
+quiz_generation_template_response_json = open_file_in_same_directory('IteninaryResponse.json')
 
 # Initialize Pinecone
 pinecone = Pinecone(api_key=KT_PINECONE_API_KEY)
