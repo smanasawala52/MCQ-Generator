@@ -1,6 +1,13 @@
 import streamlit as st
 from src.mcqgenerator.common import *
-
+st.set_page_config(
+    page_title="Travelify",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+    }
+)
 # Function to create a grid layout
 def create_grid(places, columns=4):
     rows = len(places) // columns + int(len(places) % columns > 0)
