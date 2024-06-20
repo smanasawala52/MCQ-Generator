@@ -75,7 +75,7 @@ def whatsapp_reply():
                         reply1 += f"Day {day} Message:{message}"
                     reply1 += ''
                     print(reply1)
-                    msg.body(reply1)
+                    msg.body(reply1[:1000])
                     print(msg)
                     return str(response)
         elif category == "point_of_interest":
@@ -88,14 +88,14 @@ def whatsapp_reply():
             reviews = get_reviews(location)
             reply2 = json.dumps(reviews, indent=2)
             print(reply2)
-            msg.body(reply2)
+            msg.body(reply2[:1000])
             print(msg)
             return str(response)
         elif category == "video":
             video_urls = get_videos(location)
             reply3 = "Videos:\n" + "\n".join(video_urls)
             print(reply3)
-            msg.body(reply3)
+            msg.body(reply3[:1000])
             print(msg)
             return str(response)
         else:
@@ -112,7 +112,7 @@ def whatsapp_reply():
     except Exception as e:
         reply = str(e)
 
-    msg.body(reply)
+    msg.body(reply[:1000])
     return str(response)
 
 if __name__ == "__main__":
