@@ -5,17 +5,6 @@
         "packages": [
             {
                 "time_of_day": "FULL DAY",
-                "popularity_score": -1.0,
-                "adventure_score": -1.0,
-                "activity_type": "Check-Out",
-                "activity": "Transfer to Abu Dhabi International Airport",
-                "details": "After breakfast, depending on your departure time of flight we will transfer you to Abu Dhabi International Airport. We hope you enjoyed your stay in Abu Dhabi & we thank you for providing us the opportunity to serve you & cater your travel requirements.",
-                "image_url": [
-                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894039673472rsz_1yas_island.jpg"
-                ]
-            },
-            {
-                "time_of_day": "FULL DAY",
                 "popularity_score": 3.0,
                 "adventure_score": -1.0,
                 "activity_type": "Luxury",
@@ -24,20 +13,26 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894046423472rsz_1awesome_abu_dhabi_with_yas_island.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Ferrari World",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"]
-					},
-					{
-						"place_covered_name" : "Warner Brothers",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"]
-					},
-					{
-						"place_covered_name" : "Yas Water World",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Ferrari World",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Warner Brothers",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Yas Water World",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "FULL DAY",
@@ -49,14 +44,14 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17134397943545package-itinerary17133299804042BAPSHinduTemple400X400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name": "BAPS Hindu Temple",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/53/5a/e7/caption.jpg?w=1200&h=-1&s=1"
-						]
-					  }
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "BAPS Hindu Temple",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/53/5a/e7/caption.jpg?w=1200&h=-1&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "FULL DAY",
@@ -68,20 +63,20 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894030813472rsz_qasr_al_watan.jpg"
                 ],
-				"places_covered": [
-				  {
-					"place_covered_name": "Sheikh Zayed Grand Mosque",
-					"place_covered_image_url": [
-					  "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
-					]
-				  },
-				  {
-					"place_covered_name": "Qasr Al Watan",
-					"place_covered_image_url": [
-					  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/c3/da/97/qasr-al-watan.jpg?w=1200&h=-1&s=1"
-					]
-				  }
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Qasr Al Watan",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/c3/da/97/qasr-al-watan.jpg?w=1200&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Sheikh Zayed Grand Mosque",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "FULL DAY",
@@ -93,32 +88,32 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16894039673472rsz_1yas_island.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name": "Ferrari World",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
-						]
-					  },
-					  {
-						"place_covered_name": "Warner Brothers",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
-						]
-					  },
-					  {
-						"place_covered_name": "Yas Water World",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"
-						]
-					  },
-					  {
-						"place_covered_name": "Yas island",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
-						]
-					  }
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Ferrari World",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Warner Brothers",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Yas Water World",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Yas island",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "FULL DAY",
@@ -130,49 +125,38 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133326113560FerrariWorld400x400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name": "Sheikh Zayed Grand Mosque",
-						"place_covered_image_url": [
-						  "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
-						]
-					  },
-					  {
-						"place_covered_name": "Ferrari World",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
-						]
-					  },
-					  {
-						"place_covered_name": "Warner Brothers",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
-						]
-					  },
-					  {
-						"place_covered_name": "SeaWorld",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d6/06/fa/caption.jpg?w=300&h=300&s=1"
-						]
-					  },
-					  {
-						"place_covered_name": "Yas island",
-						"place_covered_image_url": [
-						  "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
-						]
-					  }
-				]
-            },
-            {
-                "time_of_day": "MORNING TO NOON",
-                "popularity_score": -1.0,
-                "adventure_score": -1.0,
-                "activity_type": "Check-In",
-                "activity": "Arrive in Abu Dhabi & Transfer to Hotel for Check-In",
-                "details": "Marhaba!! Abu Dhabi is the largest of the seven emirates that make up the United Arab Emirates or popularly known as the UAE. It is also the Capital City of UAE.",
-                "image_url": [
-                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16868945313498airplaneresize.jpg"
-                ]				
+                "places_covered": [
+                    {
+                        "place_covered_name": "Ferrari World",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "SeaWorld",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d6/06/fa/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Sheikh Zayed Grand Mosque",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Warner Brothers",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Yas island",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "NOON TO EVENING",
@@ -184,14 +168,14 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16532896573472UAE.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name": "Sheikh Zayed Grand Mosque",
-						"place_covered_image_url": [
-						  "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
-						]
-					  }
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Sheikh Zayed Grand Mosque",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -199,17 +183,6 @@
         "city": "Dubai",
         "about": "Discover the enchanting city and emirate of Dubai in the United Arab Emirates, renowned for its upscale shopping, cutting-edge architecture, and vibrant entertainment. Dubai's skyline is dominated by the iconic Burj Khalifa, a soaring 830-meter-tall tower. At its base, the Dubai Fountain dazzles with a mesmerizing display of musically synchronized jets and lights. Just offshore, Atlantis, The Palm, a luxurious resort, awaits, featuring aquatic and marine animal sanctuaries on artificial islands. Immerse yourself in a world of opulence, innovation, and natural wonders as Dubai seamlessly combines modernity and indulgence in an unforgettable journey.",
         "packages": [
-            {
-                "time_of_day": "FULL DAY",
-                "popularity_score": -1.0,
-                "adventure_score": -1.0,
-                "activity_type": "Check-Out",
-                "activity": "Breakfast check-out from Hotel and Departure from Dubai",
-                "details": "After breakfast we check-out from our hotel & transfer to airport to catch flight back home. We return home with bags full of souvenirs and happy memories.",
-                "image_url": [
-                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133319463560Airplanedeparture400x400.jpg"
-                ]
-            },
             {
                 "time_of_day": "FULL_DAY",
                 "popularity_score": 1.0,
@@ -220,12 +193,14 @@
                 "image_url": [
                     "https://www.visitdubai.com/-/media/gathercontent/poi/m/motiongate-dubai/fallback-image/motiongate-dubai-01.jpg?rev=d8cb18080b9142ce9e7b22cfa627c8bf&cx=0.5&cy=0.5&cw=1556&ch=690"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Motiongate Dubai",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/f7/b8/10.jpg"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Motiongate Dubai",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/f7/b8/10.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "FULL_DAY",
@@ -237,16 +212,20 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560DesertSafari400x400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Aquaventure Waterpark",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/22/91/f5/aquaventure-water-park.jpg?w=1200&h=-1&s=1"]
-					},
-					{
-						"place_covered_name" : "Lost chambers",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/a1/87/8a.jpg"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Aquaventure Waterpark",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/22/91/f5/aquaventure-water-park.jpg?w=1200&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Lost chambers",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/a1/87/8a.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "FULL_DAY",
@@ -258,26 +237,19 @@
                 "image_url": [
                     "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/46/2d/a2.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Legoland Dubai",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/da/6a/34/legoland-hotel-dubai.jpg?w=700&h=-1&s=1"]
-					},
-					{
-						"place_covered_name" : "Legoland Water Park",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/86/6a/41/caption.jpg?w=1200&h=-1&s=1"]
-					}
-				]
-            },
-            {
-                "time_of_day": "MORNING TO NOON",
-                "popularity_score": -1.0,
-                "adventure_score": -1.0,
-                "activity_type": "Check-In",
-                "activity": "Arrival in Dubai",
-                "details": "Marhabaan and welcome to Dubai! On your arrival at Dubai International Airport, you will be received by our representative and transferred to your hotel. Settle into your luxurious room and spend the day at leisure exploring one of the most glamorous cities in the world.",
-                "image_url": [
-                    "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133319463560Airplanedeparture400x400.jpg"
+                "places_covered": [
+                    {
+                        "place_covered_name": "Legoland Dubai",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/da/6a/34/legoland-hotel-dubai.jpg?w=700&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Legoland Water Park",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/86/6a/41/caption.jpg?w=1200&h=-1&s=1"
+                        ]
+                    }
                 ]
             },
             {
@@ -290,29 +262,39 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131824403751Gyrocopte400x400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Dubai Eye",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/c7/a6/b7/caption.jpg?w=1200&h=-1&s=1"]
-					},
-					{
-						"place_covered_name" : "Burj Al Arab",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"]
-					},
-					{
-						"place_covered_name" : "Palm Jumeirah",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"]
-					},
-					{
-						"place_covered_name" : "Atlantis Hotel",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"]
-					},
-					{
-						"place_covered_name" : "World Islands",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/7c/51/55/caption.jpg?w=1200&h=-1&s=1"]
-					}
-				]            
-			},
+                "places_covered": [
+                    {
+                        "place_covered_name": "Atlantis Hotel",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Burj Al Arab",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Dubai Eye",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/c7/a6/b7/caption.jpg?w=1200&h=-1&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Palm Jumeirah",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "World Islands",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/7c/51/55/caption.jpg?w=1200&h=-1&s=1"
+                        ]
+                    }
+                ]
+            },
             {
                 "time_of_day": "MORNING TO NOON",
                 "popularity_score": 2.0,
@@ -323,12 +305,14 @@
                 "image_url": [
                     "https://lh3.googleusercontent.com/p/AF1QipPrzEzr7L3Sq3AycYzAkpx8ZLVIjCuWQR9MMM42=s680-w680-h510"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Museum of the Future",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/c0/17/21/caption.jpg?w=300&h=300&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Museum of the Future",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/c0/17/21/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "MORNING TO NOON",
@@ -340,12 +324,14 @@
                 "image_url": [
                     "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/0e/99/c9.jpg,https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/d3/af/3e.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Hajar Mountains",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6c/91/ef/caption.jpg?w=1200&h=-1&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Hajar Mountains",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6c/91/ef/caption.jpg?w=1200&h=-1&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "MORNING TO NOON",
@@ -357,12 +343,14 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560SafariPark400X400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Dubai Safari Park",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/28/75/c2.jpg"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Dubai Safari Park",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/28/75/c2.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "MORNING TO NOON",
@@ -374,12 +362,14 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary16868301943926SkiDubai.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Ski Dubai",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/43/33/37/ski-dubai.jpg"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Ski Dubai",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/43/33/37/ski-dubai.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "MORNING TO NOON",
@@ -391,20 +381,26 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131828643751YellowBoatTourDubai400X40.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Burj Al Arab",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"]
-					},
-					{
-						"place_covered_name" : "Palm Jumeirah",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"]
-					},
-					{
-						"place_covered_name" : "Atlantis Hotel",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Atlantis Hotel",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Burj Al Arab",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Palm Jumeirah",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "MORNING TO NOON",
@@ -416,20 +412,26 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133323603560BurjKhalifa400x400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Burj Khalifa",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
-					},
-					{
-						"place_covered_name" : "Dubai Mall",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=1200&s=1"]
-					},
-					{
-						"place_covered_name" : "The Dubai Fountain",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/e2/fd/e2/photo0jpg.jpg"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Burj Khalifa",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Dubai Mall",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=1200&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "The Dubai Fountain",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/photo-s/16/e2/fd/e2/photo0jpg.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "MORNING TO NOON",
@@ -441,16 +443,20 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131764823112Palm400X400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Burj Khalifa",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
-					},
-					{
-						"place_covered_name" : "Palm Jumeirah Beach",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/8e/75/22/the-pointe.jpg?w=1200&h=1200&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Burj Khalifa",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Palm Jumeirah Beach",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/8e/75/22/the-pointe.jpg?w=1200&h=1200&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "MORNING TO NOON",
@@ -462,12 +468,14 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/admin/thumbnail17131819663751burjkhalifa700X710.webp"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Burj Khalifa",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Burj Khalifa",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "NOON TO EVENING",
@@ -479,16 +487,20 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560DesertSafari400x400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Miracle Garden",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/7d/82/16/caption.jpg?w=300&h=300&s=1"]
-					},
-					{
-						"place_covered_name" : "Global Village",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/1c/89/caption.jpg?w=300&h=300&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Global Village",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/1c/89/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    },
+                    {
+                        "place_covered_name": "Miracle Garden",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/7d/82/16/caption.jpg?w=300&h=300&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "NOON TO EVENING",
@@ -500,12 +512,14 @@
                 "image_url": [
                     "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/dc/68/41.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Dubai Mall Zabeel",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=-1&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Dubai Mall Zabeel",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=-1&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "NOON TO EVENING",
@@ -517,12 +531,14 @@
                 "image_url": [
                     "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/c6/46/3a.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Glow Garden",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e6/9a/c9/dubai-garden-glow-season.jpg?w=1200&h=1200&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Glow Garden",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e6/9a/c9/dubai-garden-glow-season.jpg?w=1200&h=1200&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "NOON TO EVENING",
@@ -534,12 +550,14 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17131764823112Palm400X400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Burj Khalifa",
-						"place_covered_image_url" : ["https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Burj Khalifa",
+                        "place_covered_image_url": [
+                            "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "NOON TO EVENING",
@@ -551,12 +569,14 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133321423560creekdhowcruise1400X400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Dubai Marina",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/18/0e/cd/alexandra-floating-restaurant.jpg?w=1200&h=900&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Dubai Marina",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/18/0e/cd/alexandra-floating-restaurant.jpg?w=1200&h=900&s=1"
+                        ]
+                    }
+                ]
             },
             {
                 "time_of_day": "NOON TO EVENING",
@@ -568,13 +588,15 @@
                 "image_url": [
                     "https://s3-ap-southeast-1.amazonaws.com/akbartravelsholidays/package-itinerary17133325843560DesertSafari400x400.jpg"
                 ],
-				"places_covered": [
-					{
-						"place_covered_name" : "Dubai Desert",
-						"place_covered_image_url" : ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/26/bd/caption.jpg?w=500&h=400&s=1"]
-					}
-				]
+                "places_covered": [
+                    {
+                        "place_covered_name": "Dubai Desert",
+                        "place_covered_image_url": [
+                            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/26/bd/caption.jpg?w=500&h=400&s=1"
+                        ]
+                    }
+                ]
             }
         ]
     }
-]	
+]

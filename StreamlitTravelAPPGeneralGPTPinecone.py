@@ -1,7 +1,5 @@
 import streamlit as st
-from st_clickable_images import clickable_images
-from src.mcqgenerator.common import *
-
+from src.mcqgenerator.commonPinecone import *
 st.set_page_config(
     page_title="Travelify",
     page_icon="🧊",
@@ -11,7 +9,7 @@ st.set_page_config(
     }
 )
 # Function to create a grid layout
-def create_grid(places, columns=6, show_checkbox=True):
+def create_grid(places, columns=6):
     rows = len(places) // columns + int(len(places) % columns > 0)
     selected_places = []
     for row in range(rows):
@@ -21,7 +19,7 @@ def create_grid(places, columns=6, show_checkbox=True):
                 place = places[place_idx]
                 # Display the image with a checkbox
                 st.image(place["image_url"], caption=place["place"])
-                if show_checkbox and st.checkbox(place["place"], key=place["place"]):
+                if st.checkbox(place["place"], key=place["place"]):
                     selected_places.append(place)
                 
                 #st.image(places[place_idx]["image_url"], caption=places[place_idx]["place"])
@@ -85,24 +83,6 @@ def seach_and_populate_poi(search_query):
 def generate_home_page():
     st.title="Travel Query Assistant"
     search_query = st.text_input("Travel Query Assistant:")
-    images =  [
-            {"image_url":"images/static/5_days_dubai_itinerary.jpg", "place":"5 days dubai itinerary"},
-            {"image_url":"images/static/Burj_al_arab_vidoes.jpg", "place":"Burj al arab vidoes"},
-            {"image_url":"images/static/Create_dubai_itinerary_with_desert_safari.jpg", "place":"Create dubai itinerary with desert_safari"},
-            {"image_url":"images/static/Places_to_visit_in_dubai.jpg", "place":"Places to visit in dubai"}
-    ]
-    clicked = clickable_images(
-        paths=[f"{str(i['image_url'])}" for i in images],
-        titles=[f"Image #{str(i['image_url'])}" for i in images],
-        #div_style={"display": "flex", "justify-content": "center", "flex-wrap": "wrap"},
-        #img_style={"margin": "5px", "with": "200px"},
-    )
-    #create_grid(images,columns=4,show_checkbox=False)
-    #st.snow()
-    #st.balloons()
-    #st.toast('Your edited image was saved!', icon='😍')
-    #search_query = clicked
-    
     if search_query:
         classify_category = classify_query(search_query)
         category_info = classify_category['category']
@@ -118,9 +98,8 @@ def generate_home_page():
                         with get_openai_callback() as cb:
                             generate_iteninary_prompts_temp = generate_iteninary_single_prompts()
                             result = generate_iteninary_prompts_temp({
-                                'text': quiz_data,
                                 'number': number_of_days,
-                                'subject': city,
+                                'city': city,
                                 'tone': subject,
                                 'response_json': json.dumps(quiz_generation_template_response_json),
                             })

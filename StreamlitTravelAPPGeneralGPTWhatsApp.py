@@ -23,10 +23,10 @@ def search_and_populate_poi_text(search_query):
                                         "image_url":place["place_covered_image_url"][0]}
                         if not any(existing_place["place"] == placeMap["place"] and 
                                 existing_place["image_url"] == placeMap["image_url"] for existing_place in places):
-                            #st.json(placeMap)
+                            places.append(placeMap)
                             message += f"Place: *{place['place_covered_name']}* \n"
         #print(message)
-        return message
+        return message[:1000]
     else:
         return "Sorry, couldn't find any places of interest for your search."
 
@@ -81,7 +81,7 @@ def whatsapp_reply():
         elif category == "point_of_interest":
             reply_point_of_intrest = search_and_populate_poi_text(location)
             #print(reply_point_of_intrest)
-            msg.body(reply_point_of_intrest)
+            msg.body(reply_point_of_intrest[:1000])
             print(msg)
             return str(response)
         elif category == "review":
@@ -101,11 +101,14 @@ def whatsapp_reply():
         else:
             wiki_info = get_wikipedia_info(location)
             if wiki_info:
-                reply = f"{wiki_info['title']}\n\n{wiki_info['summary']}\n\nMore info: {wiki_info['url']}"
+                general_info = f"{wiki_info['title']}\n{wiki_info['summary'][:100]}"                
             else:
                 general_info = get_general_info(location)
                 reply = json.dumps(general_info, indent=2)
-            reply += search_and_populate_poi_text(location)
+            reply_point_of_intrest = search_and_populate_poi_text(location)
+            #print(reply_point_of_intrest[:1000])
+            msg.body(general_info +'\n'+reply_point_of_intrest[:1000])
+            return str(response)
     except Exception as e:
         reply = str(e)
 

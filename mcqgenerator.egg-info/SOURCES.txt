@@ -8,8 +8,10 @@ mcqgenerator.egg-info/top_level.txt
 src/__init__.py
 src/mcqgenerator/IteninaryGenerator.py
 src/mcqgenerator/IteninaryGeneratorSingle.py
+src/mcqgenerator/IteninaryGeneratorSinglePinecone.py
 src/mcqgenerator/MCQGenerator.py
 src/mcqgenerator/__init__.py
 src/mcqgenerator/common.py
+src/mcqgenerator/commonPinecone.py
 src/mcqgenerator/logger.py
 src/mcqgenerator/utils.py

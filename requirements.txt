@@ -14,5 +14,8 @@ wikipedia
 fuzzywuzzy
 twilio
 flask
+st-clickable-images
+python-Levenshtein
+
 
 -e .
