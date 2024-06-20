@@ -1,2 +1,2 @@
-modules = ["python-3.10"]
+modules = ["python-3.8"]
 entrypoint = "StreamlitTravelAPPGeneralGPTWhatsApp.py"
