@@ -105,7 +105,7 @@ def generate_home_page():
         #div_style={"display": "flex", "justify-content": "center", "flex-wrap": "wrap"},
         #img_style={"margin": "5px", "with": "200px"},
     )
-    create_grid(images,columns=4,show_checkbox=False)
+    create_grid(images,columns=8,show_checkbox=False)
     #st.snow()
     #st.balloons()
     #st.toast('Your edited image was saved!', icon='😍')
