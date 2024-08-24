@@ -1,6 +1,7 @@
 [
     {
         "city": "Abu Dhabi",
+        "city_id": "5c7dfd7a7d9d77efb358a37e81a7b07814a07e95902e29fac242f4894e0993c4",
         "about": "Abu Dhabi, the vibrant capital city of the United Arab Emirates (UAE), is a destination that seamlessly blends tradition with modernity. One of its most notable attractions is Yas Island, a dazzling entertainment and leisure hub that has captured the attention of visitors worldwide.Yas Island is a man-made island located just off the coast of Abu Dhabi, offering an unrivaled mix of thrilling adventures, luxurious resorts, and world-class entertainment. Motorsport enthusiasts flock to the Yas Marina Circuit, home to the renowned Formula 1 Abu Dhabi Grand Prix. Here, the roaring engines and high-speed excitement create an electrifying atmosphere that captivates spectators.For those seeking family-friendly entertainment, Yas Island offers the thrilling Yas Waterworld, a sprawling water park featuring exhilarating rides, slides, and attractions. The iconic Ferrari World Abu Dhabi, an indoor theme park, beckons visitors with its record-breaking roller coasters and immersive experiences centered around the legendary Italian automaker.",
         "packages": [
             {
@@ -16,18 +17,21 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Ferrari World",
+                        "place_covered_id": "3cd78e52f82bb8d70d1224ea4bfc0833bdf480293061c32bc4db3af59538b4f7",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Warner Brothers",
+                        "place_covered_id": "11f995d07f9436c50efcb394dfd84e092c9c44a718e4845dfe38817779fb859f",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Yas Water World",
+                        "place_covered_id": "decff656afe03ca5513fd858593c879921b54448d0d2b07949e0e870b98a79e4",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"
                         ]
@@ -47,6 +51,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "BAPS Hindu Temple",
+                        "place_covered_id": "7d415d19cd38902f293bad9c5f12aeb8db470627d57f82eceff73a288396b342",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/53/5a/e7/caption.jpg?w=1200&h=-1&s=1"
                         ]
@@ -66,12 +71,14 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Qasr Al Watan",
+                        "place_covered_id": "5d07db4f05a96cd1119ec0b617ac61b12d811201818f944861616de2c7b50c26",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/c3/da/97/qasr-al-watan.jpg?w=1200&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Sheikh Zayed Grand Mosque",
+                        "place_covered_id": "fbe2a7f15490aeca4c822a277b208a30caa0395065b3acf13590459919f56ef3",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
                         ]
@@ -91,24 +98,28 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Ferrari World",
+                        "place_covered_id": "3cd78e52f82bb8d70d1224ea4bfc0833bdf480293061c32bc4db3af59538b4f7",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Warner Brothers",
+                        "place_covered_id": "11f995d07f9436c50efcb394dfd84e092c9c44a718e4845dfe38817779fb859f",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Yas Water World",
+                        "place_covered_id": "decff656afe03ca5513fd858593c879921b54448d0d2b07949e0e870b98a79e4",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2a/50/9d/yas-waterworld-abu-dhabi.jpg?w=1200&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Yas island",
+                        "place_covered_id": "da106597f0b1f176ad26839b6b57a99f6e08288f2d3a6e9e8d553425a4f5b0d4",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
                         ]
@@ -128,30 +139,35 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Ferrari World",
+                        "place_covered_id": "3cd78e52f82bb8d70d1224ea4bfc0833bdf480293061c32bc4db3af59538b4f7",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e6/45/86/caption.jpg?w=300&h=300&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "SeaWorld",
+                        "place_covered_id": "c917a8a59a4c963eb0d6e9e9bd62f6d2180ae688e2e88038750238d24d355ec9",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d6/06/fa/caption.jpg?w=300&h=300&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Sheikh Zayed Grand Mosque",
+                        "place_covered_id": "fbe2a7f15490aeca4c822a277b208a30caa0395065b3acf13590459919f56ef3",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
                         ]
                     },
                     {
                         "place_covered_name": "Warner Brothers",
+                        "place_covered_id": "11f995d07f9436c50efcb394dfd84e092c9c44a718e4845dfe38817779fb859f",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/e3/5f/photo0jpg.jpg?w=1200&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Yas island",
+                        "place_covered_id": "da106597f0b1f176ad26839b6b57a99f6e08288f2d3a6e9e8d553425a4f5b0d4",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/d8/c5/exterior.jpg?w=700&h=-1&s=1"
                         ]
@@ -171,6 +187,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Sheikh Zayed Grand Mosque",
+                        "place_covered_id": "fbe2a7f15490aeca4c822a277b208a30caa0395065b3acf13590459919f56ef3",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/bf/43.jpg"
                         ]
@@ -181,6 +198,7 @@
     },
     {
         "city": "Dubai",
+        "city_id": "6c425048aa7badd9d84615bd8620ca1864efd81cfdb69dcd5d5a94b68013d48d",
         "about": "Discover the enchanting city and emirate of Dubai in the United Arab Emirates, renowned for its upscale shopping, cutting-edge architecture, and vibrant entertainment. Dubai's skyline is dominated by the iconic Burj Khalifa, a soaring 830-meter-tall tower. At its base, the Dubai Fountain dazzles with a mesmerizing display of musically synchronized jets and lights. Just offshore, Atlantis, The Palm, a luxurious resort, awaits, featuring aquatic and marine animal sanctuaries on artificial islands. Immerse yourself in a world of opulence, innovation, and natural wonders as Dubai seamlessly combines modernity and indulgence in an unforgettable journey.",
         "packages": [
             {
@@ -196,6 +214,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Motiongate Dubai",
+                        "place_covered_id": "018449d7870b9d64e5f511f7ef1eb0c6efaf6034e835a87bd311291a1ae288b9",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/f7/b8/10.jpg"
                         ]
@@ -215,12 +234,14 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Aquaventure Waterpark",
+                        "place_covered_id": "d311f1af91ab99d1cae9c340bc86290840a4fc12d66e58bc50f2f94c10a4d194",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/22/91/f5/aquaventure-water-park.jpg?w=1200&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Lost chambers",
+                        "place_covered_id": "5f881b187a35a2c30f31555f132ad981fa6b7d12c4012803894452259813178a",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/a1/87/8a.jpg"
                         ]
@@ -240,12 +261,14 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Legoland Dubai",
+                        "place_covered_id": "9d4229cb099c8e778765f408e2025b9872233895a9cff011f7e0b749131be88f",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/da/6a/34/legoland-hotel-dubai.jpg?w=700&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Legoland Water Park",
+                        "place_covered_id": "bbf2179708da877e50a379b49bd4da5e847f0e8fc38bab66238279651d8f83b5",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/86/6a/41/caption.jpg?w=1200&h=-1&s=1"
                         ]
@@ -265,30 +288,35 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Atlantis Hotel",
+                        "place_covered_id": "241083e2ab477d0202e63dac93790c86cf34c72bb6176812a55f3b2d631f1d1c",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Burj Al Arab",
+                        "place_covered_id": "de5a391731622e473ab3a12b4226fa65f9c2614bd9f4f940e8d35ec7b720233d",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Dubai Eye",
+                        "place_covered_id": "6cff4812410908c67e4610d81b6320b747d8ff205010e0fff10dc9edc42d14e2",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/c7/a6/b7/caption.jpg?w=1200&h=-1&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Palm Jumeirah",
+                        "place_covered_id": "6fa370b029d19972effe3ab18173c81cd773fa5e6f5db280d639dad010b79af3",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"
                         ]
                     },
                     {
                         "place_covered_name": "World Islands",
+                        "place_covered_id": "36e2e452fb794e1c4c5b58aac03964085a965f50b751913eddacbe358f7b27a1",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/7c/51/55/caption.jpg?w=1200&h=-1&s=1"
                         ]
@@ -308,6 +336,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Museum of the Future",
+                        "place_covered_id": "d1dfbea3f97acc07cb091653a99c2122bf0d595c2f7392af392a50509b97dc19",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/c0/17/21/caption.jpg?w=300&h=300&s=1"
                         ]
@@ -327,6 +356,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Hajar Mountains",
+                        "place_covered_id": "eb7fcf783f156f79784d405af67d51c211b9bdc15cb6f4e7a4b6b173e22034fb",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6c/91/ef/caption.jpg?w=1200&h=-1&s=1"
                         ]
@@ -346,6 +376,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Dubai Safari Park",
+                        "place_covered_id": "b1c96d07a8277ad6ec22ed1f45ef6e4691048624d9c9dcedba47b616d15400be",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/28/75/c2.jpg"
                         ]
@@ -365,6 +396,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Ski Dubai",
+                        "place_covered_id": "1d21ab6ea708c945a2051ec62d11c772897172c391a22be638f0fa75eb8124bc",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/43/33/37/ski-dubai.jpg"
                         ]
@@ -384,18 +416,21 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Atlantis Hotel",
+                        "place_covered_id": "241083e2ab477d0202e63dac93790c86cf34c72bb6176812a55f3b2d631f1d1c",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=500&h=400&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Burj Al Arab",
+                        "place_covered_id": "de5a391731622e473ab3a12b4226fa65f9c2614bd9f4f940e8d35ec7b720233d",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/cc/43/caption.jpg?w=300&h=300&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Palm Jumeirah",
+                        "place_covered_id": "6fa370b029d19972effe3ab18173c81cd773fa5e6f5db280d639dad010b79af3",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/51/f1/6e/caption.jpg?w=1200&h=700&s=1&cx=2729&cy=1791&chk=v1_652bc44d6bd9e315b475"
                         ]
@@ -415,18 +450,21 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Burj Khalifa",
+                        "place_covered_id": "a2d4693af6e92a86dcb8d31d7bacdb352caf6d5fa30afc775e3547bd0b88adca",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
                         ]
                     },
                     {
                         "place_covered_name": "Dubai Mall",
+                        "place_covered_id": "39a468ecf18eb7b484709cea9f042c7c599bcd8146a1f2a02f8a1f4fd145054a",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=1200&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "The Dubai Fountain",
+                        "place_covered_id": "f4e4751b62be4f70e4474d5adb69f6f9612d20a5727a992c9e8d2005709f303a",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/photo-s/16/e2/fd/e2/photo0jpg.jpg"
                         ]
@@ -446,12 +484,14 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Burj Khalifa",
+                        "place_covered_id": "a2d4693af6e92a86dcb8d31d7bacdb352caf6d5fa30afc775e3547bd0b88adca",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
                         ]
                     },
                     {
                         "place_covered_name": "Palm Jumeirah Beach",
+                        "place_covered_id": "75775efb3deb46dfc5e7567673a05e26fe9ad21339bbb387300e8d027c8e7a3e",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/8e/75/22/the-pointe.jpg?w=1200&h=1200&s=1"
                         ]
@@ -471,6 +511,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Burj Khalifa",
+                        "place_covered_id": "a2d4693af6e92a86dcb8d31d7bacdb352caf6d5fa30afc775e3547bd0b88adca",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
                         ]
@@ -490,12 +531,14 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Global Village",
+                        "place_covered_id": "ed8297443baf26c7603fce2688d92a2bba4ddfdb1fe08f801ab13da3d57a01a9",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/1c/89/caption.jpg?w=300&h=300&s=1"
                         ]
                     },
                     {
                         "place_covered_name": "Miracle Garden",
+                        "place_covered_id": "848a436ade58381f5c5140f586b05064f3a31f911a911e3dbace7f848a8f892c",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/7d/82/16/caption.jpg?w=300&h=300&s=1"
                         ]
@@ -515,6 +558,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Dubai Mall Zabeel",
+                        "place_covered_id": "349ae031926df8b506dda67de858b747d29d1c2caa34d242fba04b1b7f51bb11",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=-1&s=1"
                         ]
@@ -534,6 +578,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Glow Garden",
+                        "place_covered_id": "11d5d0ccb9219fc163b7cd403b6557459ff9cd0e85072b5a9967d7ef50285a7b",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e6/9a/c9/dubai-garden-glow-season.jpg?w=1200&h=1200&s=1"
                         ]
@@ -553,6 +598,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Burj Khalifa",
+                        "place_covered_id": "a2d4693af6e92a86dcb8d31d7bacdb352caf6d5fa30afc775e3547bd0b88adca",
                         "place_covered_image_url": [
                             "https://media-cdn.tripadvisor.com/media/photo-s/16/bc/f0/e8/burj-khalifa.jpg"
                         ]
@@ -572,6 +618,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Dubai Marina",
+                        "place_covered_id": "a271f988aed9d1f725731df4fe47d224edf5e82c2fa7284ed71e318c16d48cf1",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/18/0e/cd/alexandra-floating-restaurant.jpg?w=1200&h=900&s=1"
                         ]
@@ -591,6 +638,7 @@
                 "places_covered": [
                     {
                         "place_covered_name": "Dubai Desert",
+                        "place_covered_id": "e75f4150df4676a66f053a85b063362048fc2554bb356557efedd2796e502eac",
                         "place_covered_image_url": [
                             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/26/bd/caption.jpg?w=500&h=400&s=1"
                         ]

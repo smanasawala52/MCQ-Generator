@@ -2,40 +2,51 @@ import streamlit as st
 import json
 import pandas as pd
 import os
-import re
-import openai
-from langchain_text_splitters import RecursiveJsonSplitter, RecursiveCharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings
-from langchain.vectorstores import Pinecone as PineconeStore
-from pinecone import Pinecone, ServerlessSpec
-from langchain.chains import retrieval_qa
-from langchain.prompts import PromptTemplate
-from dotenv import load_dotenv
-from langchain_pinecone import PineconeVectorStore
-from src.mcqgenerator.utils import ordered_set
 import hashlib
+import time
+from uuid import uuid4
+from dotenv import load_dotenv
+import pinecone
+from tqdm.auto import tqdm
+import openai
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from pinecone import ServerlessSpec
+from sklearn.preprocessing import normalize
 import numpy as np
-import requests
 
 load_dotenv()
-OPENAI_API_KEY=os.getenv('OPENAI_API_KEY')
-KT_PINECONE_API_KEY=os.getenv('KT_PINECONE_API_KEY')
-splitter = RecursiveJsonSplitter(max_chunk_size=500)
-text_splitter=RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=20)
-pc = Pinecone(api_key=KT_PINECONE_API_KEY)
-os.environ["PINECONE_API_KEY"]=KT_PINECONE_API_KEY
-embedding=OpenAIEmbeddings()
-index_name = "travelify"
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+KT_PINECONE_API_KEY = os.getenv('KT_PINECONE_API_KEY')
 openai.api_key = OPENAI_API_KEY
+index_name = "travel-project"
+
+# Initialize Pinecone client
+print("Initializing Pinecone client...")
+pc = pinecone.Pinecone(
+    api_key=KT_PINECONE_API_KEY  # Replace with your actual Pinecone API key
+)
+print("Pinecone client initialized.")
+
+spec = ServerlessSpec(
+    cloud="aws", region="us-east-1"
+)
+
+batch_limit = 150
 
 st.set_page_config(
-    page_title="Travelify",
+    page_title="Traveling",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
-    menu_items={
-    }
+    menu_items={}
 )
+
+
+def generate_id(value):
+    """Generate a unique ID by hashing the input value."""
+    return hashlib.sha256(value.encode('utf-8')).hexdigest()
+
 
 # Load JSON data
 def load_data():
@@ -45,22 +56,26 @@ def load_data():
     except FileNotFoundError:
         return []
 
+
 # Save JSON data
 def save_data(data):
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=4)
 
-def get_about(about,minified=False):
+
+def get_about(about, minified=False):
     if minified:
         return ''
     else:
         return about
+
 
 # Convert JSON to a flat DataFrame
 def json_to_df(data, minified=False):
     rows = []
     for city_entry in data:
         city = city_entry.get('city', '')
+        city_id = generate_id(city)  # Generate unique city_id
         about = city_entry.get('about', '')
         for package in city_entry.get('packages', []):
             time_of_day = package.get('time_of_day', '')
@@ -73,6 +88,7 @@ def json_to_df(data, minified=False):
             places_covered = package.get('places_covered', [])
             for place in places_covered:
                 place_name = place.get('place_covered_name', '')
+                place_covered_id = generate_id(f"{city}_{place_name}")  # Generate unique place_covered_id
                 place_images = place.get('place_covered_image_url', [])
                 if not isinstance(image_urls, list):
                     image_urls = [image_urls]
@@ -82,37 +98,41 @@ def json_to_df(data, minified=False):
                     for place_image in place_images:
                         row = {
                             'city': city,
-                            'about': get_about(about,minified),
+                            'city_id': city_id,  # Include city_id in the row
+                            'about': get_about(about, minified),
                             'time_of_day': time_of_day,
                             'popularity_score': popularity_score,
                             'adventure_score': adventure_score,
                             'activity_type': activity_type,
                             'activity': activity,
-                            'details': get_about(details,minified),
+                            'details': get_about(details, minified),
                             'image_url': image_url,
                             'place_covered_name': place_name,
+                            'place_covered_id': place_covered_id,  # Include place_covered_id in the row
                             'place_covered_image_url': place_image
                         }
                         rows.append(row)
-    
-    #return pd.DataFrame(rows)
+
     return rows
+
 
 # Convert DataFrame back to JSON
 def df_to_json(df):
     data = []
-    grouped = df.groupby(['city', 'about'])
-    for (city, about), group in grouped:
+    grouped = df.groupby(['city', 'about', 'city_id'])
+    for (city, about, city_id), group in grouped:
         packages = []
-        package_grouped = group.groupby(['time_of_day', 'popularity_score', 'adventure_score', 'activity_type', 'activity', 'details'])
+        package_grouped = group.groupby(
+            ['time_of_day', 'popularity_score', 'adventure_score', 'activity_type', 'activity', 'details'])
         for package_key, package_df in package_grouped:
             image_urls = package_df['image_url'].unique().tolist()
-            places_covered_grouped = package_df.groupby(['place_covered_name'])
+            places_covered_grouped = package_df.groupby(['place_covered_name', 'place_covered_id'])
             places_covered = []
-            for place_name, place_df in places_covered_grouped:
+            for (place_name, place_covered_id), place_df in places_covered_grouped:
                 place_images = place_df['place_covered_image_url'].unique().tolist()
                 places_covered.append({
-                    'place_covered_name': ', '.join(ordered_set(place_name)),
+                    'place_covered_name': place_name,
+                    'place_covered_id': place_covered_id,  # Include place_covered_id in the JSON
                     'place_covered_image_url': place_images
                 })
             packages.append({
@@ -127,10 +147,12 @@ def df_to_json(df):
             })
         data.append({
             'city': city,
+            'city_id': city_id,  # Include city_id in the JSON
             'about': about,
             'packages': packages
         })
     return data
+
 
 def initialize_load_data_app():
     # Initialize Streamlit app
@@ -140,7 +162,6 @@ def initialize_load_data_app():
     data = load_data()
 
     # Convert JSON to DataFrame
-    #df = json_to_df(data)
     rows = json_to_df(data)
     df = pd.DataFrame(rows)
 
@@ -148,11 +169,11 @@ def initialize_load_data_app():
     if 'place_covered_name' not in df.columns:
         st.error("'place_covered_name' column is missing in the DataFrame.")
         return
-    
+
     if df['place_covered_name'].isnull().all():
         st.error("'place_covered_name' column is present but contains all null values.")
         return
-    
+
     # Get unique city names for dropdown
     city_names = df['city'].unique().tolist()
 
@@ -165,7 +186,7 @@ def initialize_load_data_app():
     filtered_df = df
     if search_term_city != "All":
         filtered_df = filtered_df[filtered_df['city'] == search_term_city]
-    
+
     if search_term_activity:
         filtered_df = filtered_df[
             filtered_df['activity'].str.contains(search_term_activity, case=False)
@@ -196,12 +217,12 @@ def initialize_load_data_app():
             new_activity = st.text_input("Activity")
             new_details = st.text_area("Details")
             new_image_urls = st.text_area("Image URLs (comma-separated)").split(',')
-            
+
             new_places_covered = {}
             num_places = st.number_input("Number of Places Covered", value=1, min_value=1)
             for i in range(num_places):
-                place_name = st.text_input(f"Place {i+1} Name")
-                place_images = st.text_area(f"Place {i+1} Image URLs (comma-separated)").split(',')
+                place_name = st.text_input(f"Place {i + 1} Name")
+                place_images = st.text_area(f"Place {i + 1} Image URLs (comma-separated)").split(',')
                 if place_name.strip():
                     new_places_covered[place_name.strip()] = [img.strip() for img in place_images if img.strip()]
 
@@ -235,94 +256,151 @@ def initialize_load_data_app():
                             df = df.append(new_row, ignore_index=True)
                 updated_data = df_to_json(df)
                 save_data(updated_data)
-                st.success(f"New entry for {new_city} added successfully!")
+                st.success("New entry added successfully!")
+                pinecone_load_data_app()
 
-    st.write("The data.json file has been updated. Please reload the app to see the changes.")
 
-# Convert text to a vector (example using hash)
-def text_to_vector(text):
-    # For simplicity, we are using hash; you can replace this with a more appropriate embedding
-    import hashlib
-    import numpy as np
-    hash_object = hashlib.sha256(text.encode('utf-8'))
-    hash_digest = hash_object.hexdigest()
-    return np.array([int(hash_digest[i:i+8], 16) for i in range(0, 64, 8)], dtype=np.float32)
+def flatten_metadata(metadata):
+    """
+    Flatten the metadata to ensure all values are strings, numbers, booleans, or lists of strings.
+    Convert lists of dictionaries or other unsupported types to strings.
+    """
+    flattened_metadata = {}
+    for key, value in metadata.items():
+        if isinstance(value, (dict, list)):
+            flattened_metadata[key] = str(value)  # Convert nested dicts/lists to a string
+        else:
+            flattened_metadata[key] = value
+    return flattened_metadata
 
-# Prepare data for Pinecone
-def prepare_data(data):
-    vectors = []
-    for city_entry in data:
-        city = city_entry.get('city', '')
-        about = city_entry.get('about', '')
-        for package in city_entry.get('packages', []):
-            time_of_day = package.get('time_of_day', '')
-            popularity_score = package.get('popularity_score', -1)
-            adventure_score = package.get('adventure_score', -1)
-            activity_type = package.get('activity_type', '')
-            activity = package.get('activity', '')
-            details = package.get('details', '')
-            image_urls = package.get('image_url', [])
-            places_covered = package.get('places_covered', [])
-            for place in places_covered:
-                place_name = place.get('place_covered_name', '')
-                place_images = place.get('place_covered_image_url', [])
-                if not isinstance(image_urls, list):
-                    image_urls = [image_urls]
-                if not isinstance(place_images, list):
-                    place_images = [place_images]
-                for image_url in image_urls:
-                    for place_image in place_images:
-                        # Use the data to create a vector
-                        vector_data = f"{city} {time_of_day} {activity_type} {activity} {details} {image_url} {place_name} {place_image}"
-                        vector = text_to_vector(vector_data)
-                        vectors.append((str(hash(vector_data)), vector.tolist()))  # (id, vector)
-    return vectors
-
-# Insert data into Pinecone
-def insert_data(index, vectors):
-    for vector_id, vector in vectors:
-        index.upsert([(vector_id, vector)])
 
 def pinecone_load_data_app():
-    st.write("Sending JSON Data to Pinecone")
-    # Add your Streamlit components here
-    json_data = load_data()
-    if json_data is not None:
-        rows = json_to_df(json_data, True)
-        #st.write(rows[1])
-        docs = splitter.create_documents(texts=[rows],convert_lists=True)
-        #st.write(docs[1])
-        try:
-            pc.delete_index(index_name)
-        except Exception as e:
-            print(e)
+    if index_name in pc.list_indexes().names():
+        pc.delete_index(index_name)
 
-        pc.create_index(
-            name=index_name,
-            dimension=1536,  # Replace with your model dimensions
-            metric="cosine",  # Replace with your model metric
-            spec=ServerlessSpec(
-                cloud="aws",
-                region="us-east-1"
-            )
-        )
-        index = pc.Index(index_name)
-        docsearch = PineconeVectorStore.from_documents(docs,  embedding=embedding, index_name=index_name)
-        query="activity in Dubai"
-        retriever = docsearch.as_retriever()
-        docs_retriever = retriever.invoke(query)
-        st.write(docs_retriever)
-        #docs2 = docsearch.similarity_search(query)
-        #st.write(docs2)
-        #qa = retrieval_qa.from_chain_type(llm=openai, chain_type="stuff", retriever=docsearch.as_retriever())
-        #result_ret_qa = qa.run(query)
-        #st.write(result_ret_qa)
+    pc.create_index(
+        index_name,
+        dimension=1536,  # Updated dimension to 1536
+        metric='cosine',
+        spec=spec
+    )
+    # Wait for index to be initialized
+    while not pc.describe_index(index_name).status['ready']:
+        time.sleep(1)
 
-# Function to generate embeddings and upsert them into Pinecone
-def sanitize_string(s):
-    # Remove special characters and replace spaces with underscores
-    s = re.sub(r'\W+', '', s)
-    s = s.replace(' ', '_')
-    return s.lower()
+    index = pc.Index(index_name)
+    st.write(index)
 
+    # Load data from the saved JSON file
+    data = load_data()
+
+    # Initialize OpenAI embeddings and text splitter
+    embeddings = OpenAIEmbeddings(model="text-embedding-ada-002", openai_api_key=OPENAI_API_KEY)
+    st.write("OpenAI embeddings initialized.")
+    st.write(embeddings)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+
+    # Initialize lists for storing texts and metadata
+    texts_load_data = []
+    metadata_load_data = []
+
+    # Index the data
+    for i, record in enumerate(tqdm(data)):
+        # Base metadata for the main record
+        base_metadata = {
+            'city': record.get('city', ''),
+            'city_id': record.get('city_id', ''),
+            'place_name': record.get('place_name', ''),
+            'country': record.get('country', ''),
+            'activity_type': record.get('activity_type', ''),
+        }
+
+        # Process the 'details' field
+        if 'details' in record and record['details']:
+            record_texts = text_splitter.split_text(record['details'])
+            record_metadata = [{
+                "chunk": j, "text": text, **base_metadata
+            } for j, text in enumerate(record_texts)]
+            texts_load_data.extend(record_texts)
+            metadata_load_data.extend(record_metadata)
+
+        # Process nested 'packages' and 'places_covered' entries
+        if 'packages' in record:
+            for package in record['packages']:
+                for place_covered in package.get('places_covered', []):
+                    # Metadata specific to each place_covered entry
+                    place_covered_metadata = {
+                        'place_covered_name': place_covered.get('place_covered_name', ''),
+                        'time_of_day': package.get('time_of_day', ''),
+                        'popularity_score': package.get('popularity_score', -1),
+                        'adventure_score': package.get('adventure_score', -1),
+                        'activity_type': package.get('activity_type', ''),
+                        'activity': package.get('activity', ''),
+                        'details': package.get('details', ''),
+                        'image_urls': package.get('image_url', []),
+                        'places_covered': package.get('places_covered', []),
+                        'place_name': place_covered.get('place_covered_name', ''),
+                        'place_covered_id': place_covered.get('place_covered_id', ''),
+                        'place_images': place_covered.get('place_covered_image_url', []),
+                        **base_metadata
+                    }
+
+                    # Flatten the metadata to ensure all fields are acceptable
+                    flattened_metadata = flatten_metadata(place_covered_metadata)
+
+                    # Generate vectors for the textual content of each place covered
+                    texts_load_data.extend(text_splitter.split_text(place_covered_metadata['details']))
+                    metadata_load_data.extend([flattened_metadata for _ in
+                                               range(len(text_splitter.split_text(place_covered_metadata['details'])))])
+
+    # Once all the texts and metadata are gathered, you can upsert them into Pinecone
+    upsert_to_pinecone(texts_load_data, metadata_load_data)
+
+
+def upsert_to_pinecone(texts, metadata):
+    # Initialize Pinecone Index
+    index = pc.Index(index_name)
+
+    # Initialize OpenAI embeddings
+    embeddings = OpenAIEmbeddings(model="text-embedding-ada-002", openai_api_key=OPENAI_API_KEY)
+
+    # Generate embeddings and upsert into Pinecone
+    for i in tqdm(range(0, len(texts), batch_limit)):
+        i_end = min(len(texts), i + batch_limit)
+        batch_texts = texts[i:i_end]
+        batch_metadata = metadata[i:i_end]
+        ids_batch = [str(uuid4()) for _ in range(len(batch_texts))]
+        embeds = embeddings.embed_documents(batch_texts)
+        to_upsert = zip(ids_batch, embeds, batch_metadata)
+        index.upsert(vectors=list(to_upsert))
+
+    st.success("Data successfully upsert to Pinecone.")
+
+    # Create an embedding for the query string
+    response = openai.embeddings.create(
+        input="activities in Dubai",
+        model="text-embedding-ada-002"
+    )
+
+    # st.write(response.data[0].embedding)
+    # Extract the embedding (which is the query vector)
+    query_vector = response.data[0].embedding
+    # Optional: Normalize the query vector
+    query_vector = normalize([query_vector])[0]
+
+    # Check if the vector contains NaN, inf, or -inf values
+    if np.any(np.isnan(query_vector)) or np.any(np.isinf(query_vector)):
+        raise ValueError("The query vector contains invalid values (NaN or inf).")
+
+    print(query_vector)
+
+    # Query the Pinecone Index
+    results = index.query(queries=[query_vector], top_k=5)
+
+    # Print the results
+    for result in results.results:
+        print(f"ID: {result.id}, Score: {result.score}")
+
+
+# Run the app
 initialize_load_data_app()

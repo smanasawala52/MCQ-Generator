@@ -24,7 +24,7 @@ quiz_generation_template_response_json = open_file_in_same_directory('IteninaryR
 
 # Initialize Pinecone
 pinecone = Pinecone(api_key=KT_PINECONE_API_KEY)
-index_name = 'travelify'
+index_name = 'travel-project'
 dimension = 8  # Ensure this matches the dimension used in data loading
 index = pinecone.Index(index_name)
 
