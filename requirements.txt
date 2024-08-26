@@ -31,6 +31,10 @@ torch
 torchvision
 torchaudio
 pinecone~=4.0.0
+speechrecognition
+pydub
+google-cloud-speech
+pyaudio
 
 -e .
 pypdf2~=3.0.1

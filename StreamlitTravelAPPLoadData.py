@@ -9,10 +9,10 @@ from dotenv import load_dotenv
 import pinecone
 from tqdm.auto import tqdm
 import openai
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
+# from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from pinecone import ServerlessSpec
-from sklearn.preprocessing import normalize
 import numpy as np
 
 load_dotenv()
@@ -68,6 +68,13 @@ def get_about(about, minified=False):
         return ''
     else:
         return about
+
+
+def validate_embedding(embedding):
+    if not np.all(np.isfinite(embedding)):
+        raise ValueError("Embedding contains non-finite values (NaN, infinity, etc.)")
+    if not np.all(np.abs(embedding) <= 1):
+        raise ValueError("Embedding values exceed the expected range [-1, 1]")
 
 
 # Convert JSON to a flat DataFrame
@@ -260,18 +267,8 @@ def initialize_load_data_app():
                 pinecone_load_data_app()
 
 
-def flatten_metadata(metadata):
-    """
-    Flatten the metadata to ensure all values are strings, numbers, booleans, or lists of strings.
-    Convert lists of dictionaries or other unsupported types to strings.
-    """
-    flattened_metadata = {}
-    for key, value in metadata.items():
-        if isinstance(value, (dict, list)):
-            flattened_metadata[key] = str(value)  # Convert nested dicts/lists to a string
-        else:
-            flattened_metadata[key] = value
-    return flattened_metadata
+def tiktoken_len(text):
+    return len(text)
 
 
 def pinecone_load_data_app():
@@ -284,6 +281,7 @@ def pinecone_load_data_app():
         metric='cosine',
         spec=spec
     )
+
     # Wait for index to be initialized
     while not pc.describe_index(index_name).status['ready']:
         time.sleep(1)
@@ -298,7 +296,12 @@ def pinecone_load_data_app():
     embeddings = OpenAIEmbeddings(model="text-embedding-ada-002", openai_api_key=OPENAI_API_KEY)
     st.write("OpenAI embeddings initialized.")
     st.write(embeddings)
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=200,
+        chunk_overlap=10,
+        length_function=tiktoken_len,
+        separators=["\n\n", "\n", " ", ""]
+    )
 
     # Initialize lists for storing texts and metadata
     texts_load_data = []
@@ -357,6 +360,20 @@ def pinecone_load_data_app():
     upsert_to_pinecone(texts_load_data, metadata_load_data)
 
 
+def flatten_metadata(metadata):
+    """
+    Flatten the metadata to ensure all values are strings, numbers, booleans, or lists of strings.
+    Convert lists of dictionaries or other unsupported types to strings.
+    """
+    flattened_metadata = {}
+    for key, value in metadata.items():
+        if isinstance(value, (dict, list)):
+            flattened_metadata[key] = str(value)  # Convert nested dicts/lists to a string
+        else:
+            flattened_metadata[key] = value
+    return flattened_metadata
+
+
 def upsert_to_pinecone(texts, metadata):
     # Initialize Pinecone Index
     index = pc.Index(index_name)
@@ -371,35 +388,116 @@ def upsert_to_pinecone(texts, metadata):
         batch_metadata = metadata[i:i_end]
         ids_batch = [str(uuid4()) for _ in range(len(batch_texts))]
         embeds = embeddings.embed_documents(batch_texts)
-        to_upsert = zip(ids_batch, embeds, batch_metadata)
-        index.upsert(vectors=list(to_upsert))
+        to_upsert = [
+            (ids_batch[j], embeds[j], batch_metadata[j])
+            for j in range(len(batch_texts))
+        ]
+        index.upsert(vectors=to_upsert)
 
-    st.success("Data successfully upsert to Pinecone.")
+    st.success("Data successfully upserted to Pinecone.")
 
     # Create an embedding for the query string
-    response = openai.embeddings.create(
-        input="activities in Dubai",
-        model="text-embedding-ada-002"
-    )
-
-    # st.write(response.data[0].embedding)
-    # Extract the embedding (which is the query vector)
-    query_vector = response.data[0].embedding
-    # Optional: Normalize the query vector
-    query_vector = normalize([query_vector])[0]
-
-    # Check if the vector contains NaN, inf, or -inf values
-    if np.any(np.isnan(query_vector)) or np.any(np.isinf(query_vector)):
-        raise ValueError("The query vector contains invalid values (NaN or inf).")
-
-    print(query_vector)
+    # query_text = "activities in Dubai"
+    query_text = "activities in Dubai"
+    query_vector = embeddings.embed_query(query_text)
 
     # Query the Pinecone Index
-    results = index.query(queries=[query_vector], top_k=5)
+    results = index.query(vector=query_vector, top_k=5, include_metadata=True)
 
-    # Print the results
-    for result in results.results:
-        print(f"ID: {result.id}, Score: {result.score}")
+    # # Check if results are not None and have valid entries
+    # if results and hasattr(results, 'matches'):
+    #     # Create a dictionary to store unique results
+    #     unique_results = {}
+
+    #     for result in results['matches']:
+    #         # Extract relevant metadata
+    #         place_covered_name = result['metadata'].get('place_covered_name', '')
+    #         popularity_score = result['metadata'].get('popularity_score', -1)
+    #         activity_type = result['metadata'].get('activity_type', '')
+    #         activity = result['metadata'].get('activity', '')
+    #         details = result['metadata'].get('details', '')
+    #         result_id = result['metadata'].get('place_covered_id', '')
+
+    #         # Avoid duplicates by checking if the place_covered_name has already been seen
+    #         if place_covered_name not in unique_results:
+    #             unique_results[place_covered_name] = {
+    #                 'id': result_id,
+    #                 'place_covered_name': place_covered_name,
+    #                 'popularity_score': popularity_score,
+    #                 'activity_type': activity_type,
+    #                 'activity': activity,
+    #                 'details': details,
+    #                 'score': result['score']
+    #             }
+
+    #     # Convert dictionary to a list and sort by popularity_score in descending order
+    #     sorted_results = sorted(unique_results.values(), key=lambda x: x['popularity_score'], reverse=True)
+
+    #     # Display the sorted and unique results
+    #     for result in sorted_results:
+    #         st.write(f"ID: {result['id']}, Place: {result['place_covered_name']}, "
+    #                 f"Popularity Score: {result['popularity_score']}, Activity Type: {result['activity_type']}, "
+    #                 f"Activity: {result['activity']}, Details: {result['details']}")
+    # else:
+    #     st.warning("No results returned from Pinecone.")
+
+    # # Check if results are not None and have valid entries
+    # if results and hasattr(results, 'matches'):
+    #     for result in results['matches']:
+    #         # Extract metadata fields
+    #         metadata = result['metadata']
+    #         place_name = metadata.get('place_covered_name', 'N/A')
+    #         popularity_score = metadata.get('popularity_score', 'N/A')
+    #         activity_type = metadata.get('activity_type', 'N/A')
+    #         activity = metadata.get('activity', 'N/A')
+    #         details = metadata.get('details', 'N/A')
+    #         id = metadata.get('place_covered_id', 'N/A')
+
+    #         # Display the extracted information
+    #         st.write(f"ID: {id}")
+    #         st.write(f"Place Name: {place_name}")
+    #         st.write(f"Popularity Score: {popularity_score}")
+    #         st.write(f"Activity Type: {activity_type}")
+    #         st.write(f"Activity: {activity}")
+    #         st.write(f"Details: {details}")
+    #         st.write("-" * 50)  # Separator for readability
+    # else:
+    #     st.warning("No results returned from Pinecone.")
+
+    # # Check if results are not None and have valid entries
+    # if results and hasattr(results, 'matches'):
+    #     for result in results['matches']:
+    #         st.write(f"ID: {result.id}, Score: {result.score}")
+    # else:
+    #     st.warning("No results returned from Pinecone.")
+
+    # -------------------------------------------------------------------------------------------------------
+    if results and hasattr(results, 'matches'):
+        unique_results = {}
+        for result in results['matches']:
+            metadata = result['metadata']
+            result_id = metadata.get('place_covered_id', 'N/A')
+
+            # Avoid duplicates
+            if result_id not in unique_results:
+                unique_results[result_id] = {
+                    'place_name': metadata.get('place_covered_name', 'N/A'),
+                    'popularity_score': metadata.get('popularity_score', 'N/A'),
+                    'activity_type': metadata.get('activity_type', 'N/A'),
+                    'activity': metadata.get('activity', 'N/A'),
+                    'details': metadata.get('details', 'N/A')
+                }
+
+        for result_id, data in unique_results.items():
+            st.write(f"ID: {result_id}")
+            st.write(f"Place Name: {data['place_name']}")
+            st.write(f"Popularity Score: {data['popularity_score']}")
+            st.write(f"Activity Type: {data['activity_type']}")
+            st.write(f"Activity: {data['activity']}")
+            st.write(f"Details: {data['details']}")
+            st.write("-" * 50)
+    else:
+        st.warning("No results returned from Pinecone.")
 
 
 # Run the app
