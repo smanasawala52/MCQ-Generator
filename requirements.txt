@@ -35,6 +35,14 @@ speechrecognition
 pydub
 google-cloud-speech
 pyaudio
+paddlepaddle
+paddleocr
+albumentations
+youtube-transcript-api
+textblob
+nltk
+transformers
+torch
 
 -e .
 pypdf2~=3.0.1
